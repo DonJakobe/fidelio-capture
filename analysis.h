@@ -10,31 +10,8 @@ const int dist = 3;
 
 #include "array.h"
 #include "graph.h"
+#include "pixel.h"
 
-void substract(void) {
-    int i;
-    
-    for (i=0; i<length; i++){
-	sub[i] = (frms->data[i]) - (frms->prev->data[i]);
-    }
-}
-
-void identifyPix(int l, int *a, int *b) {
-    int i;
-    *a = 0;
-    *b = 0;
-
-    for (i=0; i<length; i++) {
-	if (sub[i] > l) {
-	  bright[*a] = i;
-	  *a = *a + 1;
-	}
-	else if (sub[i] < -l) {
-	    dark[*b] = i;
-	    *b = *b + 1;
-	}
-    }
-}
 
 void group(void) {
     int i;
@@ -44,7 +21,7 @@ void group(void) {
     int **vv;
     free2dArray(frms->metlist, frms->nbright);
 
-    identifyPix(limit, &v, &u); // build lists of bright (>0) and dark (<0) pixels
+    identifyPix(limit, &v, &u, sub, bright, dark); // build lists of bright (>0) and dark (<0) pixels from sub
 
     frms->nbright = v;
     frms->ndark = u;
@@ -97,7 +74,7 @@ void group(void) {
 int check(void) {
 	printf("frame %i\n", frms->index);
 	
-	substract();
+	substractFrames(frms->data, frms->prev->data, sub);
 	group();
 
 	return 0;
