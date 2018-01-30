@@ -2,6 +2,8 @@
 struct image{
 	int index;
         char *data;
+	int nbright;
+	int ndark;
 	int **metlist;
 	int *npix;
 	int nmet;
@@ -23,6 +25,8 @@ struct image *buildBuffer(int size){
 		img->next = malloc(sizeof(struct image));
 		img->prev = tmp;
 		img->index = i;
+		img->nbright = 0;
+		img->ndark = 0;
 		img->metlist = NULL;
 		img->npix = NULL;
 		img->nmet = 0;

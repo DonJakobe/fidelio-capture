@@ -58,15 +58,25 @@ void zeroRow(int **a, int a1, int dim) {
     }
 }
 
-void printArray(int **a, int rows, int cols) {
+void print2dArray(int **a, int rows, int cols) {
     int i, j;
 
-    printf("\n\n");
+    printf("\n");
 
     for (i=0; i<rows; i++) {
 	for (j=0; j<cols; j++) {
 	    printf("%i ", a[i][j]);
 	}
 	printf("\n");
+    }
+}
+
+void print1dArray(int *a, int dim) {
+    int i;
+
+    printf("\n");
+
+    for (i=0; i<dim; i++) {
+	printf("%i ", a[i]);
     }
 }

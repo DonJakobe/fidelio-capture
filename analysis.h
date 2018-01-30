@@ -18,45 +18,46 @@ void substract(void) {
     }
 }
 
-void identifyPix(int *v, int *u) {
+void identifyPix(int l, int *a, int *b) {
     int i;
+    *a = 0;
+    *b = 0;
 
     for (i=0; i<length; i++) {
-	if (sub[i] > limit) {
-	  bright[*v] = i;
-	  *v = *v + 1;
+	if (sub[i] > l) {
+	  bright[*a] = i;
+	  *a = *a + 1;
 	}
-	else if (sub[i] < -limit) {
-	    dark[*u] = i;
-	    *u = *u + 1;
+	else if (sub[i] < -l) {
+	    dark[*b] = i;
+	    *b = *b + 1;
 	}
     }
 }
 
-void buildAdj(int v, int u, int **vu) {
+void buildAdj(int a, int b, int d, int *pixA, int *pixB, int **ab) {
     int i, j;
-    for (i=0; i<v; i++) {
-	for (j=0; j<u; j++) {
-	    if ( ((getX(bright[i])-getX(dark[j]))*(getX(bright[i])-getX(dark[j])) +
-		    (getY(bright[i])-getY(dark[j]))*(getY(bright[i])-getY(dark[j])))
-		    < dist*dist ) {
-		vu[i][j] = 1;
+    for (i=0; i<a; i++) {
+	for (j=0; j<b; j++) {
+	    if ( ((getX(pixA[i])-getX(pixB[j]))*(getX(pixA[i])-getX(pixB[j])) +
+		  (getY(pixA[i])-getY(pixB[j]))*(getY(pixA[i])-getY(pixB[j]))) < d*d ) {
+		ab[i][j] = 1;
 	    } else {
-		vu[i][j] = 0;
+		ab[i][j] = 0;
 	    }
 	}
     }
 }
 
-void buildAdj2(int v, int u, int **vu, int **vv) {
+void buildAdj2(int a, int b, int **ab, int **aa) {
     int i, j, k;
-    for (i=0; i<v; i++) {
-	for (j=0; j<u; j++) {
-	    if (vu[i][j] == 1) {
-		vv[i][i] = 1;
-		for (k=0; k<v; k++) {
-		    if (vu[k][j] == 1) {
-			vv[i][k] = 1;
+    for (i=0; i<a; i++) {
+	for (j=0; j<a; j++) {
+	    if (ab[i][j] == 1) {
+		aa[i][i] = 1;
+		for (k=0; k<a; k++) {
+		    if (ab[k][j] == 1) {
+			aa[i][k] = 1;
 		    }
 		}
 	    }
@@ -64,62 +65,9 @@ void buildAdj2(int v, int u, int **vu, int **vv) {
     }
 }
 
-void list(void) {
+void sortAdj(int v, int **vv) {
     int i, j, k;
-    int v=0;
-    int u=0;
-    int n=0;
-    int m=-1;
-    int p;
-    int **vu;
-    int **vv;
-    int **VV;
-    int **metlist; // table with the indices of all pixels belonging to one meteor
-    int *npix; // total number of pixels belonging to that meteor
-    int nmet;
-
-    free2dArray(frms->metlist, v);
-    free(frms->npix);
-
-    identifyPix(&v, &u); // build lists of bright (>0) and dark (<0) pixels
-
-    // dynamically reserve memory for matrices
-    vu = (int **) malloc(v*sizeof(int *));
-    vv = (int **) malloc(v*sizeof(int *));
-    VV = (int **) malloc(v*sizeof(int *));
-    frms->metlist = (int **) malloc(v*sizeof(int *));
-
-    for (i=0; i<v; i++) {
-	vu[i] = (int *) malloc(u*sizeof(int));
-	vv[i] = (int *) malloc(v*sizeof(int));
-	VV[i] = (int *) malloc(v*sizeof(int));
-	frms->metlist[i] = (int *) malloc(v*sizeof(int));
-	memset(frms->metlist[i], 0, sizeof(frms->metlist[i]));
-    }
-    
-    frms->npix = (int *) malloc(v*sizeof(int));
-    memset(frms->npix, 0, v*sizeof(int));
-
-
-    buildAdj(v, u, vu); // build adjacency matrix between bright (>0) and dark (<0) pixels
-
-    printf("vu\n");
-    printArray(vu, v, u);
-
-    // initialize adjacency matrix between bright pixels connected by one dark pixel (vv-matrix)
-    for (i=0; i<v; i++) {
-	for (j=0; j<v; j++) {
-	    vv[i][j] = 0;
-	}
-    }
-
-    buildAdj2(v, u, vu, vv); // build vv-matrix
-
-    printf("vv\n");
-    printArray(vv, v, v);
-
-    // sort vv-matrix to VV-matrix
-    cpy2dArray(vv, VV, v);
+    int n=0, m=-1, p=0;
 
     for (i=0; i<v; i++) {
 	if (n == i) {
@@ -132,9 +80,9 @@ void list(void) {
 
 	for (j=n; j<v; j++) {
 	    for (k=0; k<v; k++) {
-		if ( (VV[i][k] == 1) & (VV[j][k] == 1) ) {
+		if ( (vv[i][k] == 1) & (vv[j][k] == 1) ) {
 		    printf("i/j/n: %i/%i/%i\n", i, j, n);
-		    switchRows(VV, j, n, v);
+		    switchRows(vv, j, n, v);
 		    n++;
 		    p++;
 		    frms->metlist[m][p] = bright[j];
@@ -146,21 +94,62 @@ void list(void) {
     }  
 
     frms->nmet = m + 1;
+}
 
-    printf("METLIST:\n");
-    printArray(frms->metlist, v, v);
-    printf("NPIX:\n");
+void group(void) {
+    int i;
+    int v;
+    int u;
+    int **vu;
+    int **vv;
+    free2dArray(frms->metlist, frms->nbright);
+
+    identifyPix(limit, &v, &u); // build lists of bright (>0) and dark (<0) pixels
+
+    frms->nbright = v;
+    frms->ndark = u;
+
+    printf("MEMORY: %i\n", sizeof(frms->metlist[0][0]));
+    printf("MEMORY: %i\n", sizeof(frms->metlist[0]));
+    printf("MEMORY: %i\n", sizeof(frms->metlist));
+    free(frms->npix);
+
+    // dynamically reserve memory for matrices
+    vu = (int **) malloc(v*sizeof(int *));
+    vv = (int **) malloc(v*sizeof(int *));
+    frms->metlist = (int **) malloc(v*sizeof(int *));
+
     for (i=0; i<v; i++) {
-	printf("%i ", frms->npix[i]);
+	vu[i] = (int *) malloc(u*sizeof(int));
+	vv[i] = (int *) malloc(v*sizeof(int));
+	memset(vv[i], 0, v*sizeof(vv[0][0]));
+	frms->metlist[i] = (int *) malloc(v*sizeof(int));
+	memset(frms->metlist[i], 0, v*sizeof(frms->metlist[0][0]));
     }
-    printf("\nNMET: %i\n", frms->nmet);
+    
+    frms->npix = (int *) malloc(v*sizeof(int));
+    memset(frms->npix, 0, v*sizeof(int));
+    
+    buildAdj(v, u, dist, bright, dark, vu); // build adjacency matrix between bright (>0) and dark (<0) pixels
+    buildAdj2(v, u, vu, vv); // build vv-matrix
 
-    printf("VV\n");
-    printArray(VV, v, v);
+    printf("\nV x U:\n");
+    print2dArray(vu, v, u);
+    printf("\nV x V:\n");
+    print2dArray(vv, v, v);
+    
+    sortAdj(v, vv); // sort vv-matrix to VV-matrix
+
+    printf("\nV x V (sorted):\n");
+    print2dArray(vv, v, v);
+    printf("\nMETLIST:\n");
+    print2dArray(frms->metlist, v, v);
+    printf("\nNPIX:\n");
+    print1dArray(frms->npix, frms->nmet);
+    printf("\n\nNMET: %i\n", frms->nmet);
 
     free2dArray(vu, v);
     free2dArray(vv, v);
-    free2dArray(VV, v);
 }
 
 
@@ -169,7 +158,7 @@ int check(void) {
 	printf("frame %i\n", frms->index);
 	
 	substract();
-	list();
+	group();
 
 	return 0;
 }
