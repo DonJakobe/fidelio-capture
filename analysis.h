@@ -5,8 +5,8 @@ static int sub[length];
 static int bright[length];
 static int dark[length];
 
-const int limit = 80;
-const int dist = 3;
+const int limit = 50;
+const int dist = 4;
 
 #include "array.h"
 #include "graph.h"
@@ -38,14 +38,11 @@ void group(void) {
 
     for (i=0; i<v; i++) {
 	vu[i] = (int *) malloc(u*sizeof(int));
-	vv[i] = (int *) malloc(v*sizeof(int));
-	memset(vv[i], 0, v*sizeof(vv[0][0]));
-	frms->metlist[i] = (int *) malloc(v*sizeof(int));
-	memset(frms->metlist[i], 0, v*sizeof(frms->metlist[0][0]));
+	vv[i] = (int *) calloc(v, sizeof(int));
+	frms->metlist[i] = (int *) calloc(v, sizeof(int));
     }
     
-    frms->npix = (int *) malloc(v*sizeof(int));
-    memset(frms->npix, 0, v*sizeof(int));
+    frms->npix = (int *) calloc(v, sizeof(int));
     
     buildAdj(v, u, dist, bright, dark, vu); // build adjacency matrix between bright (>0) and dark (<0) pixels
     buildAdj2(v, u, vu, vv); // build vv-matrix
