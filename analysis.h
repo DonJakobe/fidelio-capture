@@ -1,6 +1,8 @@
 
 #include <string.h>
 
+int counter=0;
+
 static int sub[length];
 int *light=NULL;
 int *shadow=NULL;
@@ -18,7 +20,7 @@ void group(void) {
     int v;
     int u;
     int **vu;
-    int **vv;
+
 
     initFrame(frms);
     light = initList(light);
@@ -31,45 +33,22 @@ void group(void) {
     //print1dArray(light, v);
     //print1dArray(shadow, u);
 
-    if ( (light == NULL) | (shadow == NULL)) {
-	printf("ESCAPE\n");
-	return;
-    }
-    // dynamically reserve memory for matrices
-    
-    vu = (int **) malloc(v*sizeof(int *));
+    vu = alloc2dArray(vu, v, u); // dynamically reserve memory for matrix
 
-    for (i=0; i<v; i++) {
-	vu[i] = (int *) malloc(u*sizeof(int));
-    }
-
-    buildAdjOLD(v, u, dist, light, shadow, vu); // build adjacency matrix between bright (>0) and dark (<0) pixels
-
-    print2dArray(vu, v, u);
-    printf("FOOOOO");
-    
     buildAdj(&v, &u, dist, vu); // build adjacency matrix between bright (>0) and dark (<0) pixels
-
-    print2dArray(vu, v, u);
-
-    //rmRow(vu, &v, u);
     
+    if ( (light == NULL) | (shadow == NULL)) return;
 
-    //printf("\nV x U:\n");
     //print2dArray(vu, v, u);
-    //printf("\nV x V:\n");
-    //print2dArray(vv, v, v);
-    //sortAdj(vu, v, u, frms->num); // sort vv-matrix to VV-matrix
 
-    /*
-    printf("\nV x V (sorted):\n");
-    print2dArray(vv, v, v);
-    printf("\nMETLIST:\n");
-    print2dArray(frms->metlist, v, v);
-    printf("\nNPIX:\n");
-    print1dArray(frms->npix, frms->nmet);
-    printf("\n\nNMET: %i\n", frms->nmet);
-    */
+    sortAdj(vu, v, u, frms->num); // sort vv-matrix to VV-matrix
+
+    printf("\nV x U (sorted):\n");
+    print2dArray(vu, v, u);
+    printf("numl nums");
+    print1dArray(frms->numlight, frms->num);
+    print1dArray(frms->numshadow, frms->num);
+    printf("num: %i\n", frms->num);
 
     //free2dArray(vu, v);
     //free2dArray(vv, v);
@@ -78,10 +57,13 @@ void group(void) {
 
 
 int check(void) {
-	printf("frame %i\n", frms->index);
+	if (frms->index == 1) counter++;
+	printf("%i/frame %i\n", counter, frms->index);
 	
 	substractFrames(frms->data, frms->prev->data, sub);
 	group();
+	
+	//if(frms->index == 108) exit(0);
 
 	return 0;
 }

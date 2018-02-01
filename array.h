@@ -1,9 +1,7 @@
 
-int *addToList(int *list, int item, int cols) {
-    //printf("aTL-pre: p:%p, i:%i, c:%i\n", list, item, cols);
-    list = (int *) realloc(list, (cols+1)*sizeof(int));
-    //printf("aTL-post: p:%p, i:%i, c:%i\n", list, item, cols+1);
-    list[cols] = item;
+int *addToList(int *list, int item, int size) {
+    list = (int *) realloc(list, (size+1)*sizeof(int));
+    list[size] = item;
     return list;
 }
 
@@ -26,11 +24,21 @@ int *rmFromList(int *list, int item, int cols) {
     return list;
 }
 
-void expandList(int **list, int firstItem, int rows) {
+int **expandList(int **list, int firstItem, int rows) {
+    if (list == NULL) list = (int **) malloc(sizeof(int*));
     list[rows] = (int *) malloc(sizeof(int));
     list[rows][0] = firstItem;
+    return list;
 }
 
+int **alloc2dArray(int **arr, int rows, int cols) {
+    int i;
+    arr = (int **) malloc(rows*sizeof(int *));
+    for (i=0; i<rows; i++) {
+	arr[i] = (int *) malloc(cols*sizeof(int));
+    }
+    return arr;
+}
 
 void free2dArray(int **a, int rows) {
     int i;
@@ -96,7 +104,6 @@ void rmRow(int **a, int a0, int *rows) {
 	k++;
     } while (k < *rows);
     *rows = *rows - 1;
-    printf("i%i, k%i, pfree%p\n", i, k, a[i]);
 }
 
 void rmCol(int **arr, int b0, int rows, int cols) {
@@ -105,41 +112,6 @@ void rmCol(int **arr, int b0, int rows, int cols) {
 	arr[i] = rmFromList(arr[i], b0, cols);
     }
 }
-
-/*
-void rmRow(int **a, int *rows, int cols) {
-    int i=0, j, k, l;
-    int zero;
-
-    if ( (*rows == 0) | (cols == 0) ) {
-	return;
-    }
-
-    do {
-	zero = 1;
-	for (j=0; j<cols; j++) {
-	    if (a[i][j] == 1) {
-		zero = 0;
-	    }
-	}
-	if (zero == 1) {
-	    for (l=0; l<cols; l++) {
-		if (i == (*rows-1)) {
-		    a[i] = NULL;
-		} else {
-		    for (k=i; k<(*rows-1); k++) {
-			a[k][l] = a[k+1][l];
-		    }
-		}
-	    }
-	    *rows = *rows - 1;
-	} else {
-	    i++;
-	}
-    } while (i<*rows);
-}
-*/
-	    
 
 void switchCols(int **a, int a1, int a2, int rows) {
     int i;
