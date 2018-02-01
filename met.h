@@ -2,11 +2,11 @@
 struct image{
 	int index;
         char *data;
-	int nbright;
-	int ndark;
-	int **metlist;
-	int *npix;
-	int nmet;
+	int **lightPix;
+	int **shadowPix;
+	int *numlight;
+	int *numshadow;
+	int num;
         struct image *prev;
         struct image *next;
 };
@@ -25,11 +25,11 @@ struct image *buildBuffer(int size){
 		img->next = malloc(sizeof(struct image));
 		img->prev = tmp;
 		img->index = i;
-		img->nbright = 0;
-		img->ndark = 0;
-		img->metlist = NULL;
-		img->npix = NULL;
-		img->nmet = 0;
+		img->lightPix = NULL;
+		img->shadowPix = NULL;
+		img->numlight = NULL;
+		img->numshadow = NULL;
+		img->num = 0;
 		img->data = malloc(length);
 
 		tmp = img;
@@ -44,6 +44,25 @@ struct image *buildBuffer(int size){
 	return start;
 }
 
+void initFrame(struct image *img) {
+    int i;
+    
+    for (i=0; i<(img->num); i++) {
+	free(img->lightPix[i]);
+	free(img->shadowPix[i]);
+    }
+    
+    free(img->lightPix);
+    img->lightPix = NULL;
+    free(img->shadowPix);
+    img->shadowPix = NULL;
+
+    free(img->numlight);
+    img->numlight = NULL;
+    free(img->numshadow);
+    img->numshadow = NULL;
+}
+
 int getX(int index) {
     return index % width;
 }
@@ -51,3 +70,5 @@ int getX(int index) {
 int getY(int index) {
     return index / height;
 }
+
+
