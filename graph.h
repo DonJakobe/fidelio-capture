@@ -18,8 +18,7 @@ void buildAdj(int *a, int *b, int d, int **ab) {
 	}
 	if (zero == 1) {
 	    shadow = rmFromList(shadow, i, *b);
-	    rmCol(ab, i, *a, *b);
-	    *b = *b - 1;
+	    ab = rmCol(ab, i, *a, b);
 	} else {
 	    i++;
 	}
@@ -37,7 +36,7 @@ void buildAdj(int *a, int *b, int d, int **ab) {
 	}
 	if (zero == 1) {
 	    light = rmFromList(light, i, *a);
-	    rmRow(ab, i, a);
+	    ab = rmRow(ab, i, a);
 	} else {
 	    i++;
 	}
@@ -63,26 +62,22 @@ void sortAdj(int **ab, int rows, int cols, int num) {
 	    nr++; nc++;
 	    pr=0; pc=0;
 
-	    //printf("plightPix:%p, pshadowPix:%p, r%i, c%i\n", frms->lightPix, frms->shadowPix, r, c);
 	    frms->lightPix = expandList(frms->lightPix, light[r], num+1);
 	    frms->shadowPix = expandList(frms->shadowPix, shadow[c], num+1);
 
-	    //printf("plightPix:%p, pshadowPix:%p, r%i, c%i\n", frms->lightPix, frms->shadowPix, r, c);
-			printf("prePOINTER: %p\n", frms->numlight);
 	    frms->numlight = addToList(frms->numlight, 1, num+1);
-			printf("postPOINTER: %p\n", frms->numlight);
-	    //print1dArray(frms->numlight, num+2);
+	    //addToList(&(frms->numlight), 1, num+1);
 	    frms->numshadow = addToList(frms->numshadow, 1, num+1);
-	    //print1dArray(frms->numshadow, num+2);
+	    //addToList(&(frms->numshadow), 1, num+1);
 	    num++;
 	} else if (nr > r) {
 	    for (i=nr; i<rows; i++) {	
 		for (j=0; j<cols; j++) {
 		    if ((ab[r][j] == 1) & (ab[i][j] == 1) ) {
-			//printf("r%i, nr%i, i%i\n", r, nr, i);
 			switchRows(ab, nr, i, cols);
 			nr++; pr++;
 			frms->lightPix[num] = addToList(frms->lightPix[num], light[i], pr+1);
+			//addToList(&(frms->lightPix[num]), light[i], pr+1);
 			frms->numlight[num]++;
 			break;
 		    }
@@ -93,10 +88,10 @@ void sortAdj(int **ab, int rows, int cols, int num) {
 	    for (i=nc; i<cols; i++) {	
 		for (j=0; j<rows; j++) {
 		    if ((ab[j][c] == 1) & (ab[j][i] == 1) ) {
-			//printf("c%i, nc%i, i%i\n", c, nc, i);
 			switchCols(ab, nc, i, rows);
 			nc++; pc++;
 			frms->shadowPix[num] = addToList(frms->shadowPix[num], shadow[i], pc+1);
+			//addToList(&(frms->shadowPix[num]), shadow[i], pc+1);
 			frms->numshadow[num]++;
 			break;
 		    }
@@ -113,35 +108,3 @@ void sortAdj(int **ab, int rows, int cols, int num) {
     frms->num = num;
 }    
 
-/*
-void sortAdj2(int v, int **vv) {
-    int i, j, k;
-    int n=0, m=-1, p=0;
-
-    for (i=0; i<v; i++) {
-	if (n == i) {
-	    n++;
-	    m++;
-	    p=0;
-	    frms->metlist[m][p] = bright[i];
-	    frms->npix[m]++;
-	}
-
-	for (j=n; j<v; j++) {
-	    for (k=0; k<v; k++) {
-		if ( (vv[i][k] == 1) & (vv[j][k] == 1) ) {
-		    printf("i/j/n: %i/%i/%i\n", i, j, n);
-		    switchSymmRows(vv, j, n, v);
-		    n++;
-		    p++;
-		    frms->metlist[m][p] = bright[j];
-		    frms->npix[m]++;
-		    break;
-		}
-	    }
-	}
-    }  
-
-    frms->nmet = m + 1;
-}
-*/

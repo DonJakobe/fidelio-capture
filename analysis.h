@@ -19,19 +19,14 @@ void group(void) {
     int i, j;
     int v;
     int u;
-    int **vu;
+    int **vu=NULL;
 
 
     initFrame(frms);
     light = initList(light);
     shadow = initList(shadow);
 
-    //printf("l%p, s%p\n", light, shadow);
     identifyPix(limit, &v, &u, sub); // build lists of bright (>0) and dark (<0) pixels from sub
-    //printf("v%i, u%i\n", v, u);
-    //printf("l%p, s%p\n", light, shadow);
-    //print1dArray(light, v);
-    //print1dArray(shadow, u);
 
     vu = alloc2dArray(vu, v, u); // dynamically reserve memory for matrix
 
@@ -50,8 +45,7 @@ void group(void) {
     print1dArray(frms->numshadow, frms->num);
     printf("num: %i\n", frms->num);
 
-    //free2dArray(vu, v);
-    //free2dArray(vv, v);
+    vu = free2dArray(vu, v);
 }
 
 
@@ -63,7 +57,10 @@ int check(void) {
 	substractFrames(frms->data, frms->prev->data, sub);
 	group();
 	
-	//if(frms->index == 108) exit(0);
+	if(frms->index == 150) {
+	    //freeBuffer(frms, buffer_size);
+	    exit(0);
+	}
 
 	return 0;
 }

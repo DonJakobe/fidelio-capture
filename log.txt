@@ -22299,3 +22299,6920 @@ num: 1
 elapsed: 0
 2/frame 108
 nl:0x5572426597a0, ns:0x5572426597c0
+1/frame 1
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f7fd20
+prePOINTER: 0x5607c8f7fd20
+postPOINTER: 0x5607c8f7fd20
+prePOINTER: 0x5607c8f7fd20
+postPOINTER: 0x5607c8f7fd20
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 1 1 0 1 1 1 0 0 1 0 0 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 1 0 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+10 12 6 
+
+4 24 2 
+num: 3
+elapsed: 0
+1/frame 2
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f7ffa0
+
+V x U (sorted):
+
+1 1 
+1 1 
+numl nums
+2 
+
+2 
+num: 1
+elapsed: 0
+1/frame 3
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f80450
+
+V x U (sorted):
+
+1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+10 
+
+18 
+num: 1
+elapsed: 0
+1/frame 4
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f80b40
+prePOINTER: 0x5607c8f80b40
+postPOINTER: 0x5607c8f80b40
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 
+0 1 1 1 1 0 0 0 
+0 0 1 1 1 0 0 0 
+0 0 0 1 1 1 0 0 
+0 0 0 0 1 1 0 0 
+0 0 0 1 1 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 1 0 
+0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+numl nums
+17 5 
+
+7 1 
+num: 2
+elapsed: 0
+1/frame 5
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f80d20
+
+V x U (sorted):
+
+1 0 
+1 1 
+1 1 
+numl nums
+3 
+
+2 
+num: 1
+elapsed: 0
+1/frame 6
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+1/frame 7
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f80ec0
+
+V x U (sorted):
+
+1 
+1 
+1 
+1 
+1 
+1 
+numl nums
+6 
+
+1 
+num: 1
+elapsed: 0
+1/frame 8
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f80ff0
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+numl nums
+3 
+
+2 
+num: 1
+elapsed: 0
+1/frame 9
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+1/frame 10
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+1/frame 11
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f81160
+
+V x U (sorted):
+
+1 
+1 
+1 
+numl nums
+3 
+
+1 
+num: 1
+elapsed: 0
+1/frame 12
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f812a0
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+numl nums
+3 
+
+2 
+num: 1
+elapsed: 0
+1/frame 13
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f813e0
+
+V x U (sorted):
+
+1 1 0 1 
+1 1 1 1 
+1 1 1 1 
+numl nums
+3 
+
+4 
+num: 1
+elapsed: 0
+1/frame 14
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f81550
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+1 1 
+numl nums
+4 
+
+2 
+num: 1
+elapsed: 0
+1/frame 15
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+1/frame 16
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f81700
+
+V x U (sorted):
+
+1 
+1 
+1 
+1 
+1 
+numl nums
+5 
+
+1 
+num: 1
+elapsed: 0
+1/frame 17
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f81820
+
+V x U (sorted):
+
+1 
+1 
+numl nums
+2 
+
+1 
+num: 1
+elapsed: 0
+1/frame 18
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+1/frame 19
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f81e90
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 0 0 
+0 1 1 1 0 1 1 0 0 0 0 
+0 1 0 0 0 1 1 1 0 0 0 
+0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+16 
+
+11 
+num: 1
+elapsed: 0
+1/frame 20
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f821f0
+
+V x U (sorted):
+
+1 0 0 0 0 
+1 0 0 0 0 
+1 1 0 0 0 
+1 1 1 0 0 
+1 1 1 1 0 
+0 0 1 0 0 
+0 0 1 1 0 
+0 0 0 1 1 
+0 0 0 0 1 
+0 0 0 0 1 
+numl nums
+10 
+
+5 
+num: 1
+elapsed: 0
+1/frame 21
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82350
+
+V x U (sorted):
+
+1 
+1 
+numl nums
+2 
+
+1 
+num: 1
+elapsed: 0
+1/frame 22
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82490
+
+V x U (sorted):
+
+1 1 1 1 
+1 1 1 0 
+0 1 1 1 
+1 1 1 1 
+numl nums
+4 
+
+4 
+num: 1
+elapsed: 0
+1/frame 23
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82640
+prePOINTER: 0x5607c8f82640
+postPOINTER: 0x5607c8f82640
+
+V x U (sorted):
+
+1 0 
+1 0 
+1 0 
+1 0 
+1 0 
+1 0 
+0 1 
+numl nums
+6 1 
+
+1 1 
+num: 2
+elapsed: 0
+1/frame 24
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+1/frame 25
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82820
+
+V x U (sorted):
+
+1 
+1 
+1 
+1 
+numl nums
+4 
+
+1 
+num: 1
+elapsed: 0
+1/frame 26
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f829b0
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+1 1 
+1 1 
+numl nums
+5 
+
+2 
+num: 1
+elapsed: 0
+1/frame 27
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82ad0
+
+V x U (sorted):
+
+1 1 1 1 1 1 
+numl nums
+1 
+
+6 
+num: 1
+elapsed: 0
+1/frame 28
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82c20
+
+V x U (sorted):
+
+1 
+1 
+1 
+1 
+numl nums
+4 
+
+1 
+num: 1
+elapsed: 0
+1/frame 29
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82d90
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+1 1 
+1 1 
+numl nums
+5 
+
+2 
+num: 1
+elapsed: 0
+1/frame 30
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82e80
+
+V x U (sorted):
+
+1 1 1 1 0 
+0 1 1 1 0 
+1 1 1 1 0 
+0 1 1 1 1 
+numl nums
+4 
+
+5 
+num: 1
+elapsed: 0
+1/frame 31
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f83000
+
+V x U (sorted):
+
+1 1 1 0 
+1 1 1 0 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+numl nums
+5 
+
+4 
+num: 1
+elapsed: 0
+1/frame 32
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f83170
+
+V x U (sorted):
+
+1 1 1 0 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+numl nums
+5 
+
+4 
+num: 1
+elapsed: 0
+1/frame 33
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f83290
+
+V x U (sorted):
+
+1 1 1 
+numl nums
+1 
+
+3 
+num: 1
+elapsed: 0
+1/frame 34
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f834a0
+prePOINTER: 0x5607c8f834a0
+postPOINTER: 0x5607c8f834a0
+
+V x U (sorted):
+
+1 0 0 
+0 1 1 
+0 1 1 
+0 1 0 
+0 1 1 
+0 1 0 
+0 1 1 
+0 1 1 
+0 1 1 
+0 1 0 
+numl nums
+1 9 
+
+1 2 
+num: 2
+elapsed: 0
+1/frame 35
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f836a0
+prePOINTER: 0x5607c8f836a0
+postPOINTER: 0x5607c8f836a0
+
+V x U (sorted):
+
+1 0 0 0 
+0 1 1 1 
+0 1 1 1 
+0 1 1 1 
+numl nums
+1 3 
+
+1 3 
+num: 2
+elapsed: 0
+1/frame 36
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f84050
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+18 
+
+22 
+num: 1
+elapsed: 0
+1/frame 37
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f84bc0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 
+numl nums
+19 
+
+22 
+num: 1
+elapsed: 0
+1/frame 38
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f84e60
+
+V x U (sorted):
+
+1 1 0 
+1 1 1 
+1 1 0 
+1 1 1 
+1 1 1 
+1 1 1 
+0 1 1 
+0 1 1 
+numl nums
+8 
+
+3 
+num: 1
+elapsed: 0
+1/frame 39
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f85320
+
+V x U (sorted):
+
+0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+numl nums
+11 
+
+16 
+num: 1
+elapsed: 0
+1/frame 40
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f85cb0
+prePOINTER: 0x5607c8f85cb0
+postPOINTER: 0x5607c8f85cb0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+numl nums
+11 5 
+
+13 6 
+num: 2
+elapsed: 0
+1/frame 41
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f85eb0
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+1 1 
+0 1 
+numl nums
+5 
+
+2 
+num: 1
+elapsed: 0
+1/frame 42
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f860d0
+prePOINTER: 0x5607c8f860d0
+postPOINTER: 0x5607c8f860d0
+prePOINTER: 0x5607c8f860d0
+postPOINTER: 0x5607c8f860d0
+
+V x U (sorted):
+
+1 1 0 0 0 
+1 1 0 0 0 
+1 1 1 0 0 
+1 1 0 0 0 
+1 1 1 0 0 
+1 1 1 0 0 
+1 1 1 0 0 
+0 0 0 1 0 
+0 0 0 0 1 
+0 0 0 0 1 
+numl nums
+7 1 2 
+
+3 1 1 
+num: 3
+elapsed: 0
+1/frame 43
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f86370
+
+V x U (sorted):
+
+1 1 0 
+1 0 0 
+1 0 0 
+1 1 1 
+1 1 1 
+1 1 1 
+1 0 1 
+1 1 1 
+1 1 1 
+numl nums
+9 
+
+3 
+num: 1
+elapsed: 0
+1/frame 44
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f864a0
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 1 1 
+0 0 0 1 1 1 1 1 1 1 
+numl nums
+2 
+
+10 
+num: 1
+elapsed: 0
+1/frame 45
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f86680
+
+V x U (sorted):
+
+1 0 
+1 0 
+1 1 
+1 0 
+1 1 
+1 1 
+1 1 
+1 1 
+numl nums
+8 
+
+2 
+num: 1
+elapsed: 0
+1/frame 46
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f86760
+
+V x U (sorted):
+
+1 1 1 1 0 
+1 1 1 1 0 
+1 1 1 1 0 
+1 1 1 1 0 
+1 1 1 1 1 
+1 1 1 1 1 
+numl nums
+6 
+
+5 
+num: 1
+elapsed: 0
+1/frame 47
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f869d0
+prePOINTER: 0x5607c8f869d0
+postPOINTER: 0x5607c8f869d0
+
+V x U (sorted):
+
+0 1 1 1 1 0 0 0 0 
+1 1 1 1 1 1 1 0 0 
+0 1 1 1 1 0 0 1 0 
+1 1 1 1 1 1 1 0 0 
+0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 1 
+numl nums
+5 1 
+
+8 1 
+num: 2
+elapsed: 0
+1/frame 48
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f86d00
+prePOINTER: 0x5607c8f86d00
+postPOINTER: 0x5607c8f86d00
+
+V x U (sorted):
+
+1 1 1 0 0 0 
+1 1 0 0 0 0 
+1 1 0 0 0 0 
+1 1 1 0 0 0 
+1 1 1 0 0 0 
+1 1 1 0 0 0 
+1 1 1 0 0 0 
+0 0 0 1 1 1 
+0 0 0 0 1 1 
+numl nums
+7 2 
+
+3 3 
+num: 2
+elapsed: 0
+1/frame 49
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f86fd0
+prePOINTER: 0x5607c8f86fd0
+postPOINTER: 0x5607c8f86fd0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 
+1 1 1 0 0 0 0 
+1 1 1 0 0 0 0 
+1 1 1 0 0 1 0 
+0 1 1 0 0 1 0 
+1 1 1 1 1 1 0 
+1 1 1 1 1 1 0 
+1 1 1 1 1 1 0 
+0 0 0 0 0 0 1 
+numl nums
+8 1 
+
+6 1 
+num: 2
+elapsed: 0
+1/frame 50
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f871d0
+
+V x U (sorted):
+
+1 1 1 0 
+1 1 1 0 
+1 1 1 1 
+1 1 1 1 
+0 0 1 1 
+numl nums
+5 
+
+4 
+num: 1
+elapsed: 0
+1/frame 51
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f87380
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 
+1 0 1 1 1 0 0 
+1 1 1 0 1 1 1 
+1 1 1 1 1 1 1 
+numl nums
+4 
+
+7 
+num: 1
+elapsed: 0
+1/frame 52
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f87510
+prePOINTER: 0x5607c8f87510
+postPOINTER: 0x5607c8f87510
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 
+0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 1 
+numl nums
+2 1 
+
+7 1 
+num: 2
+elapsed: 0
+1/frame 53
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f87840
+prePOINTER: 0x5607c8f87840
+postPOINTER: 0x5607c8f87840
+prePOINTER: 0x5607c8f87840
+postPOINTER: 0x5607c8f87840
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 
+1 1 1 0 0 0 0 
+1 1 1 1 0 0 0 
+1 1 1 1 0 0 0 
+0 1 1 1 0 0 0 
+0 1 0 1 0 0 0 
+0 1 1 1 0 0 0 
+0 0 0 0 1 1 0 
+0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 
+numl nums
+7 2 1 
+
+4 2 1 
+num: 3
+elapsed: 0
+1/frame 54
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f87cd0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 
+numl nums
+9 
+
+17 
+num: 1
+elapsed: 0
+1/frame 55
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f88300
+prePOINTER: 0x5607c8f88300
+postPOINTER: 0x5607c8f88300
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+numl nums
+14 3 
+
+9 1 
+num: 2
+elapsed: 0
+1/frame 56
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f885c0
+prePOINTER: 0x5607c8f885c0
+postPOINTER: 0x5607c8f885c0
+prePOINTER: 0x5607c8f885c0
+postPOINTER: 0x5607c8f885c0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 
+1 1 1 1 0 0 0 
+1 0 1 1 0 0 0 
+1 1 1 1 1 0 0 
+1 0 1 1 0 0 0 
+0 1 1 1 1 0 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 
+numl nums
+6 2 2 
+
+5 1 1 
+num: 3
+elapsed: 0
+1/frame 57
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f888c0
+prePOINTER: 0x5607c8f888c0
+postPOINTER: 0x5607c8f888c0
+
+V x U (sorted):
+
+1 1 0 1 1 0 0 0 0 0 
+1 1 0 0 1 0 0 0 0 0 
+1 1 0 1 1 0 1 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+1 1 0 0 1 0 1 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 
+numl nums
+7 1 
+
+7 3 
+num: 2
+elapsed: 0
+1/frame 58
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f88d00
+prePOINTER: 0x5607c8f88d00
+postPOINTER: 0x5607c8f88d00
+prePOINTER: 0x5607c8f88d00
+postPOINTER: 0x5607c8f88d00
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+5 2 3 
+
+7 1 4 
+num: 3
+elapsed: 0
+1/frame 59
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89000
+prePOINTER: 0x5607c8f89000
+postPOINTER: 0x5607c8f89000
+prePOINTER: 0x5607c8f89000
+postPOINTER: 0x5607c8f89000
+
+V x U (sorted):
+
+1 0 1 1 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 
+1 0 1 1 1 1 0 0 0 
+0 0 1 1 1 1 0 0 0 
+0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 1 0 
+numl nums
+6 1 3 
+
+6 2 1 
+num: 3
+elapsed: 0
+1/frame 60
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f893b0
+prePOINTER: 0x5607c8f893b0
+postPOINTER: 0x5607c8f893b0
+
+V x U (sorted):
+
+1 1 0 0 0 0 
+1 1 0 0 0 0 
+1 1 0 0 0 0 
+1 1 1 0 0 0 
+1 1 1 0 0 0 
+1 1 0 0 0 0 
+1 1 1 1 0 0 
+1 1 1 1 0 0 
+0 1 1 1 0 0 
+0 1 1 1 0 0 
+0 0 0 0 1 1 
+0 0 0 0 1 1 
+numl nums
+10 2 
+
+4 2 
+num: 2
+elapsed: 0
+1/frame 61
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89660
+prePOINTER: 0x5607c8f89660
+postPOINTER: 0x5607c8f89660
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 1 1 1 1 0 0 
+0 0 0 1 1 1 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+2 2 
+
+12 2 
+num: 2
+elapsed: 0
+1/frame 62
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89a80
+prePOINTER: 0x5607c8f89a80
+postPOINTER: 0x5607c8f89a80
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 
+1 1 1 1 0 0 0 0 
+1 1 1 1 0 0 0 0 
+1 1 1 1 0 0 0 0 
+1 1 1 0 1 0 0 0 
+0 0 1 1 0 1 1 0 
+0 0 1 1 0 1 1 0 
+0 0 0 1 0 1 1 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+numl nums
+8 4 
+
+7 1 
+num: 2
+elapsed: 0
+1/frame 63
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89c20
+
+V x U (sorted):
+
+1 1 1 1 0 0 
+1 1 0 0 0 0 
+1 1 1 1 1 0 
+1 1 1 1 1 0 
+0 0 1 1 1 1 
+0 1 1 1 1 1 
+numl nums
+6 
+
+6 
+num: 1
+elapsed: 0
+1/frame 64
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89b20
+prePOINTER: 0x5607c8f89b20
+postPOINTER: 0x5607c8f89b20
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 
+0 1 1 1 0 0 0 
+1 1 1 1 1 0 0 
+0 1 1 1 0 0 0 
+1 1 1 1 1 0 0 
+1 1 1 1 1 0 0 
+0 0 1 1 0 0 0 
+0 0 1 1 1 0 0 
+0 0 1 1 1 0 0 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+numl nums
+9 7 
+
+5 2 
+num: 2
+elapsed: 0
+1/frame 65
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89d60
+prePOINTER: 0x5607c8f89d60
+postPOINTER: 0x5607c8f89d60
+prePOINTER: 0x5607c8f89d60
+postPOINTER: 0x5607c8f89d60
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 
+1 1 0 1 1 1 0 0 0 
+1 1 1 1 1 1 0 0 0 
+1 1 1 1 1 1 0 0 0 
+0 1 1 1 1 1 0 0 0 
+0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+numl nums
+7 2 7 
+
+6 2 1 
+num: 3
+elapsed: 0
+1/frame 66
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89d40
+prePOINTER: 0x5607c8f89d40
+postPOINTER: 0x5607c8f89d40
+
+V x U (sorted):
+
+1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 
+numl nums
+6 1 
+
+10 7 
+num: 2
+elapsed: 0
+1/frame 67
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8abc0
+prePOINTER: 0x5607c8f8abc0
+postPOINTER: 0x5607c8f8abc0
+prePOINTER: 0x5607c8f8abc0
+postPOINTER: 0x5607c8f8abc0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 
+0 1 1 1 1 0 0 0 
+0 1 1 1 1 0 0 0 
+0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+numl nums
+3 1 6 
+
+5 2 1 
+num: 3
+elapsed: 0
+1/frame 68
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8b140
+prePOINTER: 0x5607c8f8b140
+postPOINTER: 0x5607c8f8b140
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 
+1 1 1 1 1 0 0 1 0 0 0 
+0 1 0 1 1 1 1 1 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+9 5 
+
+8 3 
+num: 2
+elapsed: 0
+1/frame 69
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8b640
+prePOINTER: 0x5607c8f8b640
+postPOINTER: 0x5607c8f8b640
+prePOINTER: 0x5607c8f8b640
+postPOINTER: 0x5607c8f8b640
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 1 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 
+numl nums
+5 2 5 
+
+7 4 2 
+num: 3
+elapsed: 0
+1/frame 70
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8bb20
+prePOINTER: 0x5607c8f8bb20
+postPOINTER: 0x5607c8f8bb20
+prePOINTER: 0x5607c8f8bb20
+postPOINTER: 0x5607c8f8bb20
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 
+1 1 0 1 1 1 1 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+7 2 3 
+
+7 1 3 
+num: 3
+elapsed: 0
+1/frame 71
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8bf50
+prePOINTER: 0x5607c8f8bf50
+postPOINTER: 0x5607c8f8bf50
+
+V x U (sorted):
+
+1 1 1 0 1 1 1 0 0 0 0 
+1 1 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 1 1 0 
+numl nums
+2 6 
+
+7 4 
+num: 2
+elapsed: 0
+1/frame 72
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8cb90
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+19 
+
+21 
+num: 1
+elapsed: 0
+1/frame 73
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8d930
+
+V x U (sorted):
+
+0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+23 
+
+22 
+num: 1
+elapsed: 0
+1/frame 74
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8e140
+prePOINTER: 0x5607c8f8e140
+postPOINTER: 0x5607c8f8e140
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+12 7 
+
+10 6 
+num: 2
+elapsed: 0
+1/frame 75
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8e660
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 1 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+14 
+
+14 
+num: 1
+elapsed: 0
+1/frame 76
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8ec60
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 
+0 1 1 0 1 0 0 0 0 0 
+0 0 1 1 1 0 0 0 0 0 
+0 0 1 1 1 0 0 0 0 0 
+0 0 0 1 1 1 1 1 0 0 
+0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+numl nums
+19 
+
+10 
+num: 1
+elapsed: 0
+1/frame 77
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8f2b0
+prePOINTER: 0x5607c8f8f2b0
+postPOINTER: 0x5607c8f8f2b0
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+7 8 
+
+7 8 
+num: 2
+elapsed: 0
+1/frame 78
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8f3f0
+prePOINTER: 0x5607c8f8f3f0
+postPOINTER: 0x5607c8f8f3f0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+1 1 1 1 1 0 1 0 0 0 
+1 0 1 1 1 1 1 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+0 0 1 1 1 1 1 0 0 0 
+0 0 1 1 1 0 1 0 0 0 
+0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 1 1 1 
+numl nums
+7 5 
+
+7 3 
+num: 2
+elapsed: 0
+1/frame 79
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8f620
+prePOINTER: 0x5607c8f8f620
+postPOINTER: 0x5607c8f8f620
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 
+1 1 1 1 1 0 0 0 0 
+1 1 1 1 1 0 0 0 0 
+1 0 1 1 1 0 0 0 0 
+0 0 1 1 1 0 0 0 0 
+0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+numl nums
+9 10 
+
+5 4 
+num: 2
+elapsed: 0
+1/frame 80
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f90290
+prePOINTER: 0x5607c8f90290
+postPOINTER: 0x5607c8f90290
+
+V x U (sorted):
+
+1 1 1 0 1 1 1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+numl nums
+14 1 
+
+18 5 
+num: 2
+elapsed: 0
+1/frame 81
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f907e0
+prePOINTER: 0x5607c8f907e0
+postPOINTER: 0x5607c8f907e0
+prePOINTER: 0x5607c8f907e0
+postPOINTER: 0x5607c8f907e0
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 1 1 0 0 0 0 
+0 0 0 0 1 1 0 0 
+0 0 0 0 1 1 0 0 
+0 0 0 0 1 1 1 1 
+0 0 0 0 1 1 1 1 
+0 0 0 0 1 1 1 1 
+numl nums
+7 2 5 
+
+2 2 4 
+num: 3
+elapsed: 0
+1/frame 82
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f90a10
+prePOINTER: 0x5607c8f90a10
+postPOINTER: 0x5607c8f90a10
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 0 1 1 1 1 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 
+0 1 1 0 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+7 5 
+
+8 3 
+num: 2
+elapsed: 0
+1/frame 83
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f90bf0
+prePOINTER: 0x5607c8f90bf0
+postPOINTER: 0x5607c8f90bf0
+prePOINTER: 0x5607c8f90bf0
+postPOINTER: 0x5607c8f90bf0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 1 1 0 0 0 0 0 0 
+1 0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+6 5 4 
+
+9 2 3 
+num: 3
+elapsed: 0
+1/frame 84
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f91450
+prePOINTER: 0x5607c8f91450
+postPOINTER: 0x5607c8f91450
+
+V x U (sorted):
+
+1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 1 1 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 0 1 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 0 1 1 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 1 0 0 0 0 0 0 0 
+0 1 0 0 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+11 1 
+
+13 3 
+num: 2
+elapsed: 0
+1/frame 85
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f91920
+prePOINTER: 0x5607c8f91920
+postPOINTER: 0x5607c8f91920
+
+V x U (sorted):
+
+1 1 1 1 0 0 1 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+6 7 
+
+7 5 
+num: 2
+elapsed: 0
+1/frame 86
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f921a0
+prePOINTER: 0x5607c8f921a0
+postPOINTER: 0x5607c8f921a0
+prePOINTER: 0x5607c8f921a0
+postPOINTER: 0x5607c8f921a0
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+12 2 5 
+
+10 5 1 
+num: 3
+elapsed: 0
+1/frame 87
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f92630
+prePOINTER: 0x5607c8f92630
+postPOINTER: 0x5607c8f92630
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 
+0 0 0 1 1 1 0 0 0 
+0 0 0 0 1 0 0 0 0 
+0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+numl nums
+11 6 
+
+8 1 
+num: 2
+elapsed: 0
+1/frame 88
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f92a00
+prePOINTER: 0x5607c8f92a00
+postPOINTER: 0x5607c8f92a00
+
+V x U (sorted):
+
+1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 0 1 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 1 0 1 1 1 0 0 0 0 1 1 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+numl nums
+8 6 
+
+12 4 
+num: 2
+elapsed: 0
+1/frame 89
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f92df0
+prePOINTER: 0x5607c8f92df0
+postPOINTER: 0x5607c8f92df0
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 
+numl nums
+1 21 
+
+1 34 
+num: 2
+elapsed: 0
+1/frame 90
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f92d10
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 1 1 1 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 1 1 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 
+numl nums
+27 
+
+18 
+num: 1
+elapsed: 0
+1/frame 91
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f953f0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 1 0 0 1 0 
+0 0 0 0 0 0 0 1 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+numl nums
+14 
+
+15 
+num: 1
+elapsed: 0
+1/frame 92
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f95a00
+prePOINTER: 0x5607c8f95a00
+postPOINTER: 0x5607c8f95a00
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+numl nums
+11 5 
+
+8 8 
+num: 2
+elapsed: 0
+1/frame 93
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f96090
+prePOINTER: 0x5607c8f96090
+postPOINTER: 0x5607c8f96090
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+numl nums
+6 9 
+
+6 10 
+num: 2
+elapsed: 0
+1/frame 94
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f96900
+prePOINTER: 0x5607c8f96900
+postPOINTER: 0x5607c8f96900
+prePOINTER: 0x5607c8f96900
+postPOINTER: 0x5607c8f96900
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+numl nums
+7 1 7 
+
+11 4 6 
+num: 3
+elapsed: 0
+1/frame 95
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f96db0
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+13 
+
+13 
+num: 1
+elapsed: 0
+1/frame 96
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f97420
+prePOINTER: 0x5607c8f97420
+postPOINTER: 0x5607c8f97420
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+numl nums
+11 7 
+
+7 9 
+num: 2
+elapsed: 0
+1/frame 97
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f97b80
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+17 
+
+14 
+num: 1
+elapsed: 0
+1/frame 98
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f98240
+prePOINTER: 0x5607c8f98240
+postPOINTER: 0x5607c8f98240
+
+V x U (sorted):
+
+1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+8 10 
+
+10 8 
+num: 2
+elapsed: 0
+1/frame 99
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f98560
+prePOINTER: 0x5607c8f98560
+postPOINTER: 0x5607c8f98560
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+6 7 
+
+7 6 
+num: 2
+elapsed: 0
+1/frame 100
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f98df0
+prePOINTER: 0x5607c8f98df0
+postPOINTER: 0x5607c8f98df0
+prePOINTER: 0x5607c8f98df0
+postPOINTER: 0x5607c8f98df0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+11 2 4 
+
+10 2 1 
+num: 3
+elapsed: 0
+1/frame 101
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f99490
+prePOINTER: 0x5607c8f99490
+postPOINTER: 0x5607c8f99490
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+9 4 
+
+17 1 
+num: 2
+elapsed: 0
+1/frame 102
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f99ad0
+prePOINTER: 0x5607c8f99ad0
+postPOINTER: 0x5607c8f99ad0
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 0 0 0 0 0 0 
+1 1 0 0 0 1 0 0 0 0 0 0 0 
+1 0 1 1 1 0 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 
+0 0 0 0 0 0 0 1 1 1 0 1 0 
+0 0 0 0 0 0 0 1 1 1 0 1 0 
+0 0 0 0 0 0 0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 1 0 1 1 
+numl nums
+11 7 
+
+7 6 
+num: 2
+elapsed: 0
+1/frame 103
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f99db0
+prePOINTER: 0x5607c8f99db0
+postPOINTER: 0x5607c8f99db0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+4 7 
+
+9 7 
+num: 2
+elapsed: 0
+1/frame 104
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9a560
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 0 0 
+1 0 1 1 1 1 0 0 0 0 0 
+0 1 1 0 1 1 1 0 0 0 0 
+1 0 1 1 1 1 1 0 0 0 0 
+0 1 0 0 1 1 1 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+21 
+
+11 
+num: 1
+elapsed: 0
+1/frame 105
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9aac0
+prePOINTER: 0x5607c8f9aac0
+postPOINTER: 0x5607c8f9aac0
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 1 1 
+numl nums
+7 4 
+
+9 10 
+num: 2
+elapsed: 0
+1/frame 106
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9b2c0
+prePOINTER: 0x5607c8f9b2c0
+postPOINTER: 0x5607c8f9b2c0
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 
+numl nums
+9 5 
+
+9 10 
+num: 2
+elapsed: 0
+1/frame 107
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9cc60
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 1 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 1 1 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+numl nums
+35 
+
+30 
+num: 1
+elapsed: 0
+1/frame 108
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9e7a0
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 
+numl nums
+32 
+
+36 
+num: 1
+elapsed: 0
+1/frame 109
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9edf0
+prePOINTER: 0x5607c8f9edf0
+postPOINTER: 0x5607c8f9edf0
+prePOINTER: 0x5607c8f9edf0
+postPOINTER: 0x5607c8f9edf0
+prePOINTER: 0x5607c8f9edf0
+postPOINTER: 0x5607c8f9edf0
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 1 1 0 1 0 1 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+1 5 6 5 
+
+1 8 2 2 
+num: 4
+elapsed: 0
+1/frame 110
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9f4f0
+prePOINTER: 0x5607c8f9f4f0
+postPOINTER: 0x5607c8f9f4f0
+prePOINTER: 0x5607c8f9f4f0
+postPOINTER: 0x5607c8f9f4f0
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+numl nums
+1 8 9 
+
+1 10 11 
+num: 3
+elapsed: 0
+1/frame 111
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa0110
+prePOINTER: 0x5607c8fa0110
+postPOINTER: 0x5607c8fa0110
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 
+numl nums
+21 3 
+
+15 6 
+num: 2
+elapsed: 0
+1/frame 112
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa0830
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+14 
+
+17 
+num: 1
+elapsed: 0
+1/frame 113
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa1140
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+numl nums
+24 
+
+16 
+num: 1
+elapsed: 0
+1/frame 114
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa1750
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+numl nums
+12 
+
+24 
+num: 1
+elapsed: 0
+1/frame 115
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa1d80
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 1 1 1 0 1 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+1 0 1 0 1 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 1 0 1 1 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 
+numl nums
+25 
+
+13 
+num: 1
+elapsed: 0
+1/frame 116
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa2810
+prePOINTER: 0x5607c8fa2810
+postPOINTER: 0x5607c8fa2810
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+numl nums
+10 10 
+
+8 13 
+num: 2
+elapsed: 0
+1/frame 117
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa3290
+prePOINTER: 0x5607c8fa3290
+postPOINTER: 0x5607c8fa3290
+
+V x U (sorted):
+
+1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 
+numl nums
+11 8 
+
+12 11 
+num: 2
+elapsed: 0
+1/frame 118
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa3950
+prePOINTER: 0x5607c8fa3950
+postPOINTER: 0x5607c8fa3950
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 1 1 0 0 1 1 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+numl nums
+3 12 
+
+4 15 
+num: 2
+elapsed: 0
+1/frame 119
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa4060
+prePOINTER: 0x5607c8fa4060
+postPOINTER: 0x5607c8fa4060
+prePOINTER: 0x5607c8fa4060
+postPOINTER: 0x5607c8fa4060
+
+V x U (sorted):
+
+1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 1 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 
+numl nums
+8 5 9 
+
+7 4 2 
+num: 3
+elapsed: 0
+1/frame 120
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa4730
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 
+numl nums
+14 
+
+20 
+num: 1
+elapsed: 0
+1/frame 121
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa5290
+prePOINTER: 0x5607c8fa5290
+postPOINTER: 0x5607c8fa5290
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+numl nums
+9 11 
+
+9 15 
+num: 2
+elapsed: 0
+1/frame 122
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa5bc0
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+numl nums
+18 
+
+20 
+num: 1
+elapsed: 0
+1/frame 123
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa66a0
+prePOINTER: 0x5607c8fa66a0
+postPOINTER: 0x5607c8fa66a0
+
+V x U (sorted):
+
+1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 1 1 1 1 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+numl nums
+10 12 
+
+7 13 
+num: 2
+elapsed: 0
+1/frame 124
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa6e60
+prePOINTER: 0x5607c8fa6e60
+postPOINTER: 0x5607c8fa6e60
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 
+numl nums
+2 15 
+
+6 14 
+num: 2
+elapsed: 0
+1/frame 125
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa7bc0
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 1 
+numl nums
+22 
+
+24 
+num: 1
+elapsed: 0
+1/frame 126
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa8920
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+25 
+
+25 
+num: 1
+elapsed: 0
+1/frame 127
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa9220
+prePOINTER: 0x5607c8fa9220
+postPOINTER: 0x5607c8fa9220
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 
+numl nums
+7 12 
+
+9 12 
+num: 2
+elapsed: 0
+1/frame 128
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fa9b60
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 
+numl nums
+17 
+
+22 
+num: 1
+elapsed: 0
+1/frame 129
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8faa3a0
+prePOINTER: 0x5607c8faa3a0
+postPOINTER: 0x5607c8faa3a0
+prePOINTER: 0x5607c8faa3a0
+postPOINTER: 0x5607c8faa3a0
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 1 
+numl nums
+1 7 9 
+
+1 8 11 
+num: 3
+elapsed: 0
+1/frame 130
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8faa720
+prePOINTER: 0x5607c8faa720
+postPOINTER: 0x5607c8faa720
+prePOINTER: 0x5607c8faa720
+postPOINTER: 0x5607c8faa720
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+numl nums
+1 5 9 
+
+1 6 11 
+num: 3
+elapsed: 0
+1/frame 131
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8faaef0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+17 
+
+18 
+num: 1
+elapsed: 0
+1/frame 132
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fab860
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 
+numl nums
+23 
+
+18 
+num: 1
+elapsed: 0
+1/frame 133
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fac360
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 
+numl nums
+15 
+
+20 
+num: 1
+elapsed: 0
+1/frame 134
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fac560
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 
+numl nums
+18 
+
+17 
+num: 1
+elapsed: 0
+1/frame 135
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8faca60
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 1 0 0 1 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 1 1 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 
+0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+numl nums
+20 
+
+15 
+num: 1
+elapsed: 0
+1/frame 136
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8facc20
+prePOINTER: 0x5607c8facc20
+postPOINTER: 0x5607c8facc20
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 1 0 0 
+0 0 0 0 1 1 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+numl nums
+7 10 
+
+4 10 
+num: 2
+elapsed: 0
+1/frame 137
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fac7c0
+prePOINTER: 0x5607c8fac7c0
+postPOINTER: 0x5607c8fac7c0
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 0 1 1 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+numl nums
+1 17 
+
+1 25 
+num: 2
+elapsed: 0
+1/frame 138
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fae800
+prePOINTER: 0x5607c8fae800
+postPOINTER: 0x5607c8fae800
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+1 19 
+
+1 13 
+num: 2
+elapsed: 0
+1/frame 139
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8faf0f0
+prePOINTER: 0x5607c8faf0f0
+postPOINTER: 0x5607c8faf0f0
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+6 13 
+
+10 10 
+num: 2
+elapsed: 0
+1/frame 140
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fafab0
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 1 1 1 
+numl nums
+17 
+
+22 
+num: 1
+elapsed: 0
+1/frame 141
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb01b0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+numl nums
+22 
+
+18 
+num: 1
+elapsed: 0
+1/frame 142
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb0a70
+prePOINTER: 0x5607c8fb0a70
+postPOINTER: 0x5607c8fb0a70
+
+V x U (sorted):
+
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 0 0 
+0 0 0 0 1 0 0 1 1 0 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 0 1 1 0 0 0 0 1 0 0 
+0 0 0 0 1 0 0 1 1 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+8 11 
+
+4 13 
+num: 2
+elapsed: 0
+1/frame 143
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb21e0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+28 
+
+35 
+num: 1
+elapsed: 0
+1/frame 144
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb3fa0
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 1 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 1 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 1 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 1 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 1 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+numl nums
+31 
+
+39 
+num: 1
+elapsed: 0
+1/frame 145
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb4670
+prePOINTER: 0x5607c8fb4670
+postPOINTER: 0x5607c8fb4670
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 0 0 1 0 1 1 1 0 0 
+0 0 0 0 0 1 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 1 0 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 
+numl nums
+10 9 
+
+3 13 
+num: 2
+elapsed: 0
+1/frame 146
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb5230
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 
+numl nums
+23 
+
+23 
+num: 1
+elapsed: 0
+1/frame 147
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb5a00
+prePOINTER: 0x5607c8fb5a00
+postPOINTER: 0x5607c8fb5a00
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+numl nums
+4 11 
+
+7 16 
+num: 2
+elapsed: 0
+1/frame 148
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb60b0
+prePOINTER: 0x5607c8fb60b0
+postPOINTER: 0x5607c8fb60b0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 1 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 1 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+numl nums
+9 10 
+
+6 12 
+num: 2
+elapsed: 0
+1/frame 149
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb65d0
+prePOINTER: 0x5607c8fb65d0
+postPOINTER: 0x5607c8fb65d0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 
+numl nums
+6 7 
+
+6 12 
+num: 2
+elapsed: 0
+1/frame 150
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb6bd0
+
+V x U (sorted):
+
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 1 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 0 0 1 1 
+0 0 0 0 0 0 0 0 0 1 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+22 
+
+14 
+num: 1
+elapsed: 0
+2/frame 1
+nl:0x5607c8f7fd20, ns:0x5607c8f7fd40
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f7fd00
+prePOINTER: 0x5607c8f7fd00
+postPOINTER: 0x5607c8f7fd00
+prePOINTER: 0x5607c8f7fd00
+postPOINTER: 0x5607c8f7fd00
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 1 1 0 1 1 1 0 0 1 0 0 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 1 0 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+10 12 6 
+
+4 24 2 
+num: 3
+elapsed: 0
+2/frame 2
+nl:0x5607c8f7ffa0, ns:0x5607c8f7ffc0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb8430
+
+V x U (sorted):
+
+1 1 
+1 1 
+numl nums
+2 
+
+2 
+num: 1
+elapsed: 0
+2/frame 3
+nl:0x5607c8f80450, ns:0x5607c8f80470
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f80410
+
+V x U (sorted):
+
+1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+10 
+
+18 
+num: 1
+elapsed: 0
+2/frame 4
+nl:0x5607c8f80b40, ns:0x5607c8f80b60
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f80b20
+prePOINTER: 0x5607c8f80b20
+postPOINTER: 0x5607c8f80b20
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 
+0 1 1 1 1 0 0 0 
+0 0 1 1 1 0 0 0 
+0 0 0 1 1 1 0 0 
+0 0 0 0 1 1 0 0 
+0 0 0 1 1 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 1 0 
+0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+numl nums
+17 5 
+
+7 1 
+num: 2
+elapsed: 0
+2/frame 5
+nl:0x5607c8f80d20, ns:0x5607c8f80d40
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb8c50
+
+V x U (sorted):
+
+1 0 
+1 1 
+1 1 
+numl nums
+3 
+
+2 
+num: 1
+elapsed: 0
+2/frame 6
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+2/frame 7
+nl:0x5607c8f80ec0, ns:0x5607c8f80ee0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb8d50
+
+V x U (sorted):
+
+1 
+1 
+1 
+1 
+1 
+1 
+numl nums
+6 
+
+1 
+num: 1
+elapsed: 0
+2/frame 8
+nl:0x5607c8f80ff0, ns:0x5607c8f81010
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb8dc0
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+numl nums
+3 
+
+2 
+num: 1
+elapsed: 0
+2/frame 9
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+2/frame 10
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+2/frame 11
+nl:0x5607c8f81160, ns:0x5607c8f81180
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f81140
+
+V x U (sorted):
+
+1 
+1 
+1 
+numl nums
+3 
+
+1 
+num: 1
+elapsed: 0
+2/frame 12
+nl:0x5607c8f812a0, ns:0x5607c8f812c0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb8ef0
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+numl nums
+3 
+
+2 
+num: 1
+elapsed: 0
+2/frame 13
+nl:0x5607c8f813e0, ns:0x5607c8f81400
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb8f70
+
+V x U (sorted):
+
+1 1 0 1 
+1 1 1 1 
+1 1 1 1 
+numl nums
+3 
+
+4 
+num: 1
+elapsed: 0
+2/frame 14
+nl:0x5607c8f81550, ns:0x5607c8f81570
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb8ff0
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+1 1 
+numl nums
+4 
+
+2 
+num: 1
+elapsed: 0
+2/frame 15
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+2/frame 16
+nl:0x5607c8f81700, ns:0x5607c8f81720
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb90e0
+
+V x U (sorted):
+
+1 
+1 
+1 
+1 
+1 
+numl nums
+5 
+
+1 
+num: 1
+elapsed: 0
+2/frame 17
+nl:0x5607c8f81820, ns:0x5607c8f81840
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9140
+
+V x U (sorted):
+
+1 
+1 
+numl nums
+2 
+
+1 
+num: 1
+elapsed: 0
+2/frame 18
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+2/frame 19
+nl:0x5607c8f81e90, ns:0x5607c8f81eb0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f818c0
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 0 0 
+0 1 1 1 1 0 0 0 0 0 0 
+0 1 1 1 0 1 1 0 0 0 0 
+0 1 0 0 0 1 1 1 0 0 0 
+0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+16 
+
+11 
+num: 1
+elapsed: 0
+2/frame 20
+nl:0x5607c8f821f0, ns:0x5607c8f82210
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f821d0
+
+V x U (sorted):
+
+1 0 0 0 0 
+1 0 0 0 0 
+1 1 0 0 0 
+1 1 1 0 0 
+1 1 1 1 0 
+0 0 1 0 0 
+0 0 1 1 0 
+0 0 0 1 1 
+0 0 0 0 1 
+0 0 0 0 1 
+numl nums
+10 
+
+5 
+num: 1
+elapsed: 0
+2/frame 21
+nl:0x5607c8f82350, ns:0x5607c8f82370
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb98f0
+
+V x U (sorted):
+
+1 
+1 
+numl nums
+2 
+
+1 
+num: 1
+elapsed: 0
+2/frame 22
+nl:0x5607c8f82490, ns:0x5607c8f824b0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9970
+
+V x U (sorted):
+
+1 1 1 1 
+1 1 1 0 
+0 1 1 1 
+1 1 1 1 
+numl nums
+4 
+
+4 
+num: 1
+elapsed: 0
+2/frame 23
+nl:0x5607c8f82640, ns:0x5607c8f82660
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9a40
+prePOINTER: 0x5607c8fb9a40
+postPOINTER: 0x5607c8fb9a40
+
+V x U (sorted):
+
+1 0 
+1 0 
+1 0 
+1 0 
+1 0 
+1 0 
+0 1 
+numl nums
+6 1 
+
+1 1 
+num: 2
+elapsed: 0
+2/frame 24
+nl:(nil), ns:(nil)
+FOOOOOOOOO!
+elapsed: 0
+2/frame 25
+nl:0x5607c8f82820, ns:0x5607c8f82840
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9b60
+
+V x U (sorted):
+
+1 
+1 
+1 
+1 
+numl nums
+4 
+
+1 
+num: 1
+elapsed: 0
+2/frame 26
+nl:0x5607c8f829b0, ns:0x5607c8f829d0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9c30
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+1 1 
+1 1 
+numl nums
+5 
+
+2 
+num: 1
+elapsed: 0
+2/frame 27
+nl:0x5607c8f82ad0, ns:0x5607c8f82af0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9cb0
+
+V x U (sorted):
+
+1 1 1 1 1 1 
+numl nums
+1 
+
+6 
+num: 1
+elapsed: 0
+2/frame 28
+nl:0x5607c8f82c20, ns:0x5607c8f82c40
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9d40
+
+V x U (sorted):
+
+1 
+1 
+1 
+1 
+numl nums
+4 
+
+1 
+num: 1
+elapsed: 0
+2/frame 29
+nl:0x5607c8f82d90, ns:0x5607c8f82db0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9df0
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+1 1 
+1 1 
+numl nums
+5 
+
+2 
+num: 1
+elapsed: 0
+2/frame 30
+nl:0x5607c8f82e80, ns:0x5607c8f82ea0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82e60
+
+V x U (sorted):
+
+1 1 1 1 0 
+0 1 1 1 0 
+1 1 1 1 0 
+0 1 1 1 1 
+numl nums
+4 
+
+5 
+num: 1
+elapsed: 0
+2/frame 31
+nl:0x5607c8f83000, ns:0x5607c8f83020
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9ee0
+
+V x U (sorted):
+
+1 1 1 0 
+1 1 1 0 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+numl nums
+5 
+
+4 
+num: 1
+elapsed: 0
+2/frame 32
+nl:0x5607c8f83170, ns:0x5607c8f83190
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9f90
+
+V x U (sorted):
+
+1 1 1 0 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+numl nums
+5 
+
+4 
+num: 1
+elapsed: 0
+2/frame 33
+nl:0x5607c8f83290, ns:0x5607c8f832b0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb9ff0
+
+V x U (sorted):
+
+1 1 1 
+numl nums
+1 
+
+3 
+num: 1
+elapsed: 0
+2/frame 34
+nl:0x5607c8f834a0, ns:0x5607c8f834c0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fba120
+prePOINTER: 0x5607c8fba120
+postPOINTER: 0x5607c8fba120
+
+V x U (sorted):
+
+1 0 0 
+0 1 1 
+0 1 1 
+0 1 0 
+0 1 1 
+0 1 0 
+0 1 1 
+0 1 1 
+0 1 1 
+0 1 0 
+numl nums
+1 9 
+
+1 2 
+num: 2
+elapsed: 0
+2/frame 35
+nl:0x5607c8f836a0, ns:0x5607c8f836c0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f836c0
+prePOINTER: 0x5607c8f836c0
+postPOINTER: 0x5607c8f836c0
+
+V x U (sorted):
+
+1 0 0 0 
+0 1 1 1 
+0 1 1 1 
+0 1 1 1 
+numl nums
+1 3 
+
+1 3 
+num: 2
+elapsed: 0
+2/frame 36
+nl:0x5607c8f84050, ns:0x5607c8f84070
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f82ec0
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+18 
+
+22 
+num: 1
+elapsed: 0
+2/frame 37
+nl:0x5607c8f84bc0, ns:0x5607c8f84be0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f84010
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 
+numl nums
+19 
+
+22 
+num: 1
+elapsed: 0
+2/frame 38
+nl:0x5607c8f84e60, ns:0x5607c8f84e80
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fbb680
+
+V x U (sorted):
+
+1 1 0 
+1 1 1 
+1 1 0 
+1 1 1 
+1 1 1 
+1 1 1 
+0 1 1 
+0 1 1 
+numl nums
+8 
+
+3 
+num: 1
+elapsed: 0
+2/frame 39
+nl:0x5607c8f85320, ns:0x5607c8f85340
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f83ff0
+
+V x U (sorted):
+
+0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+numl nums
+11 
+
+16 
+num: 1
+elapsed: 0
+2/frame 40
+nl:0x5607c8f85cb0, ns:0x5607c8f85cd0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f85c90
+prePOINTER: 0x5607c8f85c90
+postPOINTER: 0x5607c8f85c90
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+numl nums
+11 5 
+
+13 6 
+num: 2
+elapsed: 0
+2/frame 41
+nl:0x5607c8f85eb0, ns:0x5607c8f85ed0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fb8200
+
+V x U (sorted):
+
+1 1 
+1 1 
+1 1 
+1 1 
+0 1 
+numl nums
+5 
+
+2 
+num: 1
+elapsed: 0
+2/frame 42
+nl:0x5607c8f860d0, ns:0x5607c8f860f0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f84e80
+prePOINTER: 0x5607c8f84e80
+postPOINTER: 0x5607c8f84e80
+prePOINTER: 0x5607c8f84e80
+postPOINTER: 0x5607c8f84e80
+
+V x U (sorted):
+
+1 1 0 0 0 
+1 1 0 0 0 
+1 1 1 0 0 
+1 1 0 0 0 
+1 1 1 0 0 
+1 1 1 0 0 
+1 1 1 0 0 
+0 0 0 1 0 
+0 0 0 0 1 
+0 0 0 0 1 
+numl nums
+7 1 2 
+
+3 1 1 
+num: 3
+elapsed: 0
+2/frame 43
+nl:0x5607c8f86370, ns:0x5607c8f86390
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fbc100
+
+V x U (sorted):
+
+1 1 0 
+1 0 0 
+1 0 0 
+1 1 1 
+1 1 1 
+1 1 1 
+1 0 1 
+1 1 1 
+1 1 1 
+numl nums
+9 
+
+3 
+num: 1
+elapsed: 0
+2/frame 44
+nl:0x5607c8f864a0, ns:0x5607c8f864c0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fbc0a0
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 1 1 
+0 0 0 1 1 1 1 1 1 1 
+numl nums
+2 
+
+10 
+num: 1
+elapsed: 0
+2/frame 45
+nl:0x5607c8f86680, ns:0x5607c8f866a0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fbc250
+
+V x U (sorted):
+
+1 0 
+1 0 
+1 1 
+1 0 
+1 1 
+1 1 
+1 1 
+1 1 
+numl nums
+8 
+
+2 
+num: 1
+elapsed: 0
+2/frame 46
+nl:0x5607c8f86760, ns:0x5607c8f86780
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f86600
+
+V x U (sorted):
+
+1 1 1 1 0 
+1 1 1 1 0 
+1 1 1 1 0 
+1 1 1 1 0 
+1 1 1 1 1 
+1 1 1 1 1 
+numl nums
+6 
+
+5 
+num: 1
+elapsed: 0
+2/frame 47
+nl:0x5607c8f869d0, ns:0x5607c8f869f0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f86480
+prePOINTER: 0x5607c8f86480
+postPOINTER: 0x5607c8f86480
+
+V x U (sorted):
+
+0 1 1 1 1 0 0 0 0 
+1 1 1 1 1 1 1 0 0 
+0 1 1 1 1 0 0 1 0 
+1 1 1 1 1 1 1 0 0 
+0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 1 
+numl nums
+5 1 
+
+8 1 
+num: 2
+elapsed: 0
+2/frame 48
+nl:0x5607c8f86d00, ns:0x5607c8f86d20
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f86d70
+prePOINTER: 0x5607c8f86d70
+postPOINTER: 0x5607c8f86d70
+
+V x U (sorted):
+
+1 1 1 0 0 0 
+1 1 0 0 0 0 
+1 1 0 0 0 0 
+1 1 1 0 0 0 
+1 1 1 0 0 0 
+1 1 1 0 0 0 
+1 1 1 0 0 0 
+0 0 0 1 1 1 
+0 0 0 0 1 1 
+numl nums
+7 2 
+
+3 3 
+num: 2
+elapsed: 0
+2/frame 49
+nl:0x5607c8f86fd0, ns:0x5607c8f86ff0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f86d90
+prePOINTER: 0x5607c8f86d90
+postPOINTER: 0x5607c8f86d90
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 
+1 1 1 0 0 0 0 
+1 1 1 0 0 0 0 
+1 1 1 0 0 1 0 
+0 1 1 0 0 1 0 
+1 1 1 1 1 1 0 
+1 1 1 1 1 1 0 
+1 1 1 1 1 1 0 
+0 0 0 0 0 0 1 
+numl nums
+8 1 
+
+6 1 
+num: 2
+elapsed: 0
+2/frame 50
+nl:0x5607c8f871d0, ns:0x5607c8f871f0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f87170
+
+V x U (sorted):
+
+1 1 1 0 
+1 1 1 0 
+1 1 1 1 
+1 1 1 1 
+0 0 1 1 
+numl nums
+5 
+
+4 
+num: 1
+elapsed: 0
+2/frame 51
+nl:0x5607c8f87380, ns:0x5607c8f873a0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f87320
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 
+1 0 1 1 1 0 0 
+1 1 1 0 1 1 1 
+1 1 1 1 1 1 1 
+numl nums
+4 
+
+7 
+num: 1
+elapsed: 0
+2/frame 52
+nl:0x5607c8f87510, ns:0x5607c8f87530
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f874b0
+prePOINTER: 0x5607c8f874b0
+postPOINTER: 0x5607c8f874b0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 
+0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 1 
+numl nums
+2 1 
+
+7 1 
+num: 2
+elapsed: 0
+2/frame 53
+nl:0x5607c8f87840, ns:0x5607c8f87860
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f87090
+prePOINTER: 0x5607c8f87090
+postPOINTER: 0x5607c8f87090
+prePOINTER: 0x5607c8f87090
+postPOINTER: 0x5607c8f87090
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 
+1 1 1 0 0 0 0 
+1 1 1 1 0 0 0 
+1 1 1 1 0 0 0 
+0 1 1 1 0 0 0 
+0 1 0 1 0 0 0 
+0 1 1 1 0 0 0 
+0 0 0 0 1 1 0 
+0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 
+numl nums
+7 2 1 
+
+4 2 1 
+num: 3
+elapsed: 0
+2/frame 54
+nl:0x5607c8f87cd0, ns:0x5607c8f87cf0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f87840
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 
+numl nums
+9 
+
+17 
+num: 1
+elapsed: 0
+2/frame 55
+nl:0x5607c8f88300, ns:0x5607c8f88320
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f882e0
+prePOINTER: 0x5607c8f882e0
+postPOINTER: 0x5607c8f882e0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 
+1 1 0 1 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+numl nums
+14 3 
+
+9 1 
+num: 2
+elapsed: 0
+2/frame 56
+nl:0x5607c8f885c0, ns:0x5607c8f885e0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f883c0
+prePOINTER: 0x5607c8f883c0
+postPOINTER: 0x5607c8f883c0
+prePOINTER: 0x5607c8f883c0
+postPOINTER: 0x5607c8f883c0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 
+1 1 1 1 0 0 0 
+1 0 1 1 0 0 0 
+1 1 1 1 1 0 0 
+1 0 1 1 0 0 0 
+0 1 1 1 1 0 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 
+numl nums
+6 2 2 
+
+5 1 1 
+num: 3
+elapsed: 0
+2/frame 57
+nl:0x5607c8f888c0, ns:0x5607c8f888e0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f888a0
+prePOINTER: 0x5607c8f888a0
+postPOINTER: 0x5607c8f888a0
+
+V x U (sorted):
+
+1 1 0 1 1 0 0 0 0 0 
+1 1 0 0 1 0 0 0 0 0 
+1 1 0 1 1 0 1 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+1 1 0 0 1 0 1 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 
+numl nums
+7 1 
+
+7 3 
+num: 2
+elapsed: 0
+2/frame 58
+nl:0x5607c8f88d00, ns:0x5607c8f88d20
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f88ce0
+prePOINTER: 0x5607c8f88ce0
+postPOINTER: 0x5607c8f88ce0
+prePOINTER: 0x5607c8f88ce0
+postPOINTER: 0x5607c8f88ce0
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+5 2 3 
+
+7 1 4 
+num: 3
+elapsed: 0
+2/frame 59
+nl:0x5607c8f89000, ns:0x5607c8f89020
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f88fe0
+prePOINTER: 0x5607c8f88fe0
+postPOINTER: 0x5607c8f88fe0
+prePOINTER: 0x5607c8f88fe0
+postPOINTER: 0x5607c8f88fe0
+
+V x U (sorted):
+
+1 0 1 1 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 
+1 0 1 1 1 1 0 0 0 
+0 0 1 1 1 1 0 0 0 
+0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 1 0 
+numl nums
+6 1 3 
+
+6 2 1 
+num: 3
+elapsed: 0
+2/frame 60
+nl:0x5607c8f893b0, ns:0x5607c8f893d0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fbdf20
+prePOINTER: 0x5607c8fbdf20
+postPOINTER: 0x5607c8fbdf20
+
+V x U (sorted):
+
+1 1 0 0 0 0 
+1 1 0 0 0 0 
+1 1 0 0 0 0 
+1 1 1 0 0 0 
+1 1 1 0 0 0 
+1 1 0 0 0 0 
+1 1 1 1 0 0 
+1 1 1 1 0 0 
+0 1 1 1 0 0 
+0 1 1 1 0 0 
+0 0 0 0 1 1 
+0 0 0 0 1 1 
+numl nums
+10 2 
+
+4 2 
+num: 2
+elapsed: 0
+2/frame 61
+nl:0x5607c8f89660, ns:0x5607c8f89680
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89640
+prePOINTER: 0x5607c8f89640
+postPOINTER: 0x5607c8f89640
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 1 1 1 1 0 0 
+0 0 0 1 1 1 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+2 2 
+
+12 2 
+num: 2
+elapsed: 0
+2/frame 62
+nl:0x5607c8f89a80, ns:0x5607c8f89aa0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89450
+prePOINTER: 0x5607c8f89450
+postPOINTER: 0x5607c8f89450
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 
+1 1 1 1 0 0 0 0 
+1 1 1 1 0 0 0 0 
+1 1 1 1 0 0 0 0 
+1 1 1 0 1 0 0 0 
+0 0 1 1 0 1 1 0 
+0 0 1 1 0 1 1 0 
+0 0 0 1 0 1 1 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+numl nums
+8 4 
+
+7 1 
+num: 2
+elapsed: 0
+2/frame 63
+nl:0x5607c8f89c20, ns:0x5607c8f89b40
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89140
+
+V x U (sorted):
+
+1 1 1 1 0 0 
+1 1 0 0 0 0 
+1 1 1 1 1 0 
+1 1 1 1 1 0 
+0 0 1 1 1 1 
+0 1 1 1 1 1 
+numl nums
+6 
+
+6 
+num: 1
+elapsed: 0
+2/frame 64
+nl:0x5607c8f89b20, ns:0x5607c8f89da0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89b40
+prePOINTER: 0x5607c8f89b40
+postPOINTER: 0x5607c8f89b40
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 
+0 1 1 1 0 0 0 
+1 1 1 1 1 0 0 
+0 1 1 1 0 0 0 
+1 1 1 1 1 0 0 
+1 1 1 1 1 0 0 
+0 0 1 1 0 0 0 
+0 0 1 1 1 0 0 
+0 0 1 1 1 0 0 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+0 0 0 0 0 1 1 
+numl nums
+9 7 
+
+5 2 
+num: 2
+elapsed: 0
+2/frame 65
+nl:0x5607c8f89d60, ns:0x5607c8f89be0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89d80
+prePOINTER: 0x5607c8f89d80
+postPOINTER: 0x5607c8f89d80
+prePOINTER: 0x5607c8f89d80
+postPOINTER: 0x5607c8f89d80
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 
+1 1 0 1 1 1 0 0 0 
+1 1 1 1 1 1 0 0 0 
+1 1 1 1 1 1 0 0 0 
+0 1 1 1 1 1 0 0 0 
+0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+numl nums
+7 2 7 
+
+6 2 1 
+num: 3
+elapsed: 0
+2/frame 66
+nl:0x5607c8f89d40, ns:0x5607c8f8a8b0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89da0
+prePOINTER: 0x5607c8f89da0
+postPOINTER: 0x5607c8f89da0
+
+V x U (sorted):
+
+1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 
+numl nums
+6 1 
+
+10 7 
+num: 2
+elapsed: 0
+2/frame 67
+nl:0x5607c8f8abc0, ns:0x5607c8f8abe0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8ab60
+prePOINTER: 0x5607c8f8ab60
+postPOINTER: 0x5607c8f8ab60
+prePOINTER: 0x5607c8f8ab60
+postPOINTER: 0x5607c8f8ab60
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 
+0 1 1 1 1 0 0 0 
+0 1 1 1 1 0 0 0 
+0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+numl nums
+3 1 6 
+
+5 2 1 
+num: 3
+elapsed: 0
+2/frame 68
+nl:0x5607c8f8b140, ns:0x5607c8f8b160
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f89c00
+prePOINTER: 0x5607c8f89c00
+postPOINTER: 0x5607c8f89c00
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 
+1 1 1 1 1 0 0 1 0 0 0 
+0 1 0 1 1 1 1 1 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+9 5 
+
+8 3 
+num: 2
+elapsed: 0
+2/frame 69
+nl:0x5607c8f8b640, ns:0x5607c8f8b660
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8b620
+prePOINTER: 0x5607c8f8b620
+postPOINTER: 0x5607c8f8b620
+prePOINTER: 0x5607c8f8b620
+postPOINTER: 0x5607c8f8b620
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 1 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 1 0 0 0 
+numl nums
+5 2 5 
+
+7 4 2 
+num: 3
+elapsed: 0
+2/frame 70
+nl:0x5607c8f8bb20, ns:0x5607c8f8bb40
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8b160
+prePOINTER: 0x5607c8f8b160
+postPOINTER: 0x5607c8f8b160
+prePOINTER: 0x5607c8f8b160
+postPOINTER: 0x5607c8f8b160
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 
+1 1 0 1 1 1 1 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+7 2 3 
+
+7 1 3 
+num: 3
+elapsed: 0
+2/frame 71
+nl:0x5607c8f8bf50, ns:0x5607c8f8bf70
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8b730
+prePOINTER: 0x5607c8f8b730
+postPOINTER: 0x5607c8f8b730
+
+V x U (sorted):
+
+1 1 1 0 1 1 1 0 0 0 0 
+1 1 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 1 1 0 
+numl nums
+2 6 
+
+7 4 
+num: 2
+elapsed: 0
+2/frame 72
+nl:0x5607c8f8cb90, ns:0x5607c8f8cbb0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8bbe0
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+19 
+
+21 
+num: 1
+elapsed: 0
+2/frame 73
+nl:0x5607c8f8d930, ns:0x5607c8f8d950
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8bc00
+
+V x U (sorted):
+
+0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+23 
+
+22 
+num: 1
+elapsed: 0
+2/frame 74
+nl:0x5607c8f8e140, ns:0x5607c8f8e160
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8bff0
+prePOINTER: 0x5607c8f8bff0
+postPOINTER: 0x5607c8f8bff0
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+12 7 
+
+10 6 
+num: 2
+elapsed: 0
+2/frame 75
+nl:0x5607c8f8e660, ns:0x5607c8f8e680
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8e160
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 1 1 1 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+14 
+
+14 
+num: 1
+elapsed: 0
+2/frame 76
+nl:0x5607c8f8ec60, ns:0x5607c8f8ec80
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8e120
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 
+0 1 1 0 1 0 0 0 0 0 
+0 0 1 1 1 0 0 0 0 0 
+0 0 1 1 1 0 0 0 0 0 
+0 0 0 1 1 1 1 1 0 0 
+0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 
+numl nums
+19 
+
+10 
+num: 1
+elapsed: 0
+2/frame 77
+nl:0x5607c8f8f2b0, ns:0x5607c8f8f2d0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8d910
+prePOINTER: 0x5607c8f8d910
+postPOINTER: 0x5607c8f8d910
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+7 8 
+
+7 8 
+num: 2
+elapsed: 0
+2/frame 78
+nl:0x5607c8f8f3f0, ns:0x5607c8f8f290
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8f300
+prePOINTER: 0x5607c8f8f300
+postPOINTER: 0x5607c8f8f300
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+1 1 1 1 1 0 1 0 0 0 
+1 0 1 1 1 1 1 0 0 0 
+1 1 1 1 1 1 1 0 0 0 
+0 0 1 1 1 1 1 0 0 0 
+0 0 1 1 1 0 1 0 0 0 
+0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 1 1 1 
+numl nums
+7 5 
+
+7 3 
+num: 2
+elapsed: 0
+2/frame 79
+nl:0x5607c8f8f620, ns:0x5607c8f8f670
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8f6c0
+prePOINTER: 0x5607c8f8f6c0
+postPOINTER: 0x5607c8f8f6c0
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 
+1 1 1 1 1 0 0 0 0 
+1 1 1 1 1 0 0 0 0 
+1 0 1 1 1 0 0 0 0 
+0 0 1 1 1 0 0 0 0 
+0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+numl nums
+9 10 
+
+5 4 
+num: 2
+elapsed: 0
+2/frame 80
+nl:0x5607c8f90290, ns:0x5607c8f902b0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f8f710
+prePOINTER: 0x5607c8f8f710
+postPOINTER: 0x5607c8f8f710
+
+V x U (sorted):
+
+1 1 1 0 1 1 1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+numl nums
+14 1 
+
+18 5 
+num: 2
+elapsed: 0
+2/frame 81
+nl:0x5607c8f907e0, ns:0x5607c8f90800
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f90780
+prePOINTER: 0x5607c8f90780
+postPOINTER: 0x5607c8f90780
+prePOINTER: 0x5607c8f90780
+postPOINTER: 0x5607c8f90780
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 1 1 0 0 0 0 
+0 0 0 0 1 1 0 0 
+0 0 0 0 1 1 0 0 
+0 0 0 0 1 1 1 1 
+0 0 0 0 1 1 1 1 
+0 0 0 0 1 1 1 1 
+numl nums
+7 2 5 
+
+2 2 4 
+num: 3
+elapsed: 0
+2/frame 82
+nl:0x5607c8f90a10, ns:0x5607c8f908d0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fc3040
+prePOINTER: 0x5607c8fc3040
+postPOINTER: 0x5607c8fc3040
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 0 1 1 1 1 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 
+0 1 1 0 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+7 5 
+
+8 3 
+num: 2
+elapsed: 0
+2/frame 83
+nl:0x5607c8f90bf0, ns:0x5607c8f90c50
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f90ad0
+prePOINTER: 0x5607c8f90ad0
+postPOINTER: 0x5607c8f90ad0
+prePOINTER: 0x5607c8f90ad0
+postPOINTER: 0x5607c8f90ad0
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 0 1 1 0 0 0 0 0 0 
+1 0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+6 5 4 
+
+9 2 3 
+num: 3
+elapsed: 0
+2/frame 84
+nl:0x5607c8f91450, ns:0x5607c8f91470
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fc40e0
+prePOINTER: 0x5607c8fc40e0
+postPOINTER: 0x5607c8fc40e0
+
+V x U (sorted):
+
+1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 1 1 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 0 1 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 0 1 1 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 1 0 0 0 0 0 0 0 
+0 1 0 0 1 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+11 1 
+
+13 3 
+num: 2
+elapsed: 0
+2/frame 85
+nl:0x5607c8f91920, ns:0x5607c8f91940
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f918c0
+prePOINTER: 0x5607c8f918c0
+postPOINTER: 0x5607c8f918c0
+
+V x U (sorted):
+
+1 1 1 1 0 0 1 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+6 7 
+
+7 5 
+num: 2
+elapsed: 0
+2/frame 86
+nl:0x5607c8f921a0, ns:0x5607c8f921c0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f92140
+prePOINTER: 0x5607c8f92140
+postPOINTER: 0x5607c8f92140
+prePOINTER: 0x5607c8f92140
+postPOINTER: 0x5607c8f92140
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+12 2 5 
+
+10 5 1 
+num: 3
+elapsed: 0
+2/frame 87
+nl:0x5607c8f92630, ns:0x5607c8f92650
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f91450
+prePOINTER: 0x5607c8f91450
+postPOINTER: 0x5607c8f91450
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 
+0 0 0 1 1 1 0 0 0 
+0 0 0 0 1 0 0 0 0 
+0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1 
+numl nums
+11 6 
+
+8 1 
+num: 2
+elapsed: 0
+2/frame 88
+nl:0x5607c8f92a00, ns:0x5607c8f92900
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f92b50
+prePOINTER: 0x5607c8f92b50
+postPOINTER: 0x5607c8f92b50
+
+V x U (sorted):
+
+1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 0 1 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 1 0 1 1 1 0 0 0 0 1 1 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+numl nums
+8 6 
+
+12 4 
+num: 2
+elapsed: 0
+2/frame 89
+nl:0x5607c8f92df0, ns:0x5607c8f92e60
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f92610
+prePOINTER: 0x5607c8f92610
+postPOINTER: 0x5607c8f92610
+
+V x U (sorted):
+
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 
+numl nums
+1 21 
+
+1 34 
+num: 2
+elapsed: 0
+2/frame 90
+nl:0x5607c8f92d10, ns:0x5607c8f92c30
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fc5d60
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 0 1 1 1 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 1 1 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 
+numl nums
+27 
+
+18 
+num: 1
+elapsed: 0
+2/frame 91
+nl:0x5607c8f953f0, ns:0x5607c8f95410
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8fc5cf0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 1 0 0 1 0 
+0 0 0 0 0 0 0 1 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+numl nums
+14 
+
+15 
+num: 1
+elapsed: 0
+2/frame 92
+nl:0x5607c8f95a00, ns:0x5607c8f95a20
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f93020
+prePOINTER: 0x5607c8f93020
+postPOINTER: 0x5607c8f93020
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+numl nums
+11 5 
+
+8 8 
+num: 2
+elapsed: 0
+2/frame 93
+nl:0x5607c8f96090, ns:0x5607c8f960b0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f959c0
+prePOINTER: 0x5607c8f959c0
+postPOINTER: 0x5607c8f959c0
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+numl nums
+6 9 
+
+6 10 
+num: 2
+elapsed: 0
+2/frame 94
+nl:0x5607c8f96900, ns:0x5607c8f96920
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f968e0
+prePOINTER: 0x5607c8f968e0
+postPOINTER: 0x5607c8f968e0
+prePOINTER: 0x5607c8f968e0
+postPOINTER: 0x5607c8f968e0
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+numl nums
+7 1 7 
+
+11 4 6 
+num: 3
+elapsed: 0
+2/frame 95
+nl:0x5607c8f96db0, ns:0x5607c8f96dd0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f92d10
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 0 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 1 1 1 1 
+numl nums
+13 
+
+13 
+num: 1
+elapsed: 0
+2/frame 96
+nl:0x5607c8f97420, ns:0x5607c8f97440
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f92fb0
+prePOINTER: 0x5607c8f92fb0
+postPOINTER: 0x5607c8f92fb0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
+numl nums
+11 7 
+
+7 9 
+num: 2
+elapsed: 0
+2/frame 97
+nl:0x5607c8f97b80, ns:0x5607c8f97ba0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f97440
+
+V x U (sorted):
+
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 0 1 1 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+17 
+
+14 
+num: 1
+elapsed: 0
+2/frame 98
+nl:0x5607c8f98240, ns:0x5607c8f98260
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f97400
+prePOINTER: 0x5607c8f97400
+postPOINTER: 0x5607c8f97400
+
+V x U (sorted):
+
+1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+8 10 
+
+10 8 
+num: 2
+elapsed: 0
+2/frame 99
+nl:0x5607c8f98560, ns:0x5607c8f98580
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f98240
+prePOINTER: 0x5607c8f98240
+postPOINTER: 0x5607c8f98240
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 1 1 1 
+numl nums
+6 7 
+
+7 6 
+num: 2
+elapsed: 0
+2/frame 100
+nl:0x5607c8f98df0, ns:0x5607c8f98e10
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f985b0
+prePOINTER: 0x5607c8f985b0
+postPOINTER: 0x5607c8f985b0
+prePOINTER: 0x5607c8f985b0
+postPOINTER: 0x5607c8f985b0
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 1 1 1 1 1 1 0 0 0 
+0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+11 2 4 
+
+10 2 1 
+num: 3
+elapsed: 0
+2/frame 101
+nl:0x5607c8f99490, ns:0x5607c8f994b0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f98540
+prePOINTER: 0x5607c8f98540
+postPOINTER: 0x5607c8f98540
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+numl nums
+9 4 
+
+17 1 
+num: 2
+elapsed: 0
+2/frame 102
+nl:0x5607c8f99ad0, ns:0x5607c8f99af0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f98df0
+prePOINTER: 0x5607c8f98df0
+postPOINTER: 0x5607c8f98df0
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 0 1 1 0 0 0 0 0 0 0 
+1 1 0 0 0 1 0 0 0 0 0 0 0 
+1 0 1 1 1 0 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 
+0 0 0 0 0 0 0 1 1 1 0 1 0 
+0 0 0 0 0 0 0 1 1 1 0 1 0 
+0 0 0 0 0 0 0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 1 0 1 1 
+numl nums
+11 7 
+
+7 6 
+num: 2
+elapsed: 0
+2/frame 103
+nl:0x5607c8f99db0, ns:0x5607c8f99dd0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f98f10
+prePOINTER: 0x5607c8f98f10
+postPOINTER: 0x5607c8f98f10
+
+V x U (sorted):
+
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+4 7 
+
+9 7 
+num: 2
+elapsed: 0
+2/frame 104
+nl:0x5607c8f9a560, ns:0x5607c8f9a580
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f99490
+
+V x U (sorted):
+
+1 1 1 0 0 0 0 0 0 0 0 
+1 1 1 0 1 0 0 0 0 0 0 
+1 0 1 1 1 0 0 0 0 0 0 
+1 0 1 1 1 1 0 0 0 0 0 
+0 1 1 0 1 1 1 0 0 0 0 
+1 0 1 1 1 1 1 0 0 0 0 
+0 1 0 0 1 1 1 0 0 0 0 
+0 0 0 0 1 1 1 1 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 1 1 
+numl nums
+21 
+
+11 
+num: 1
+elapsed: 0
+2/frame 105
+nl:0x5607c8f9aac0, ns:0x5607c8f9aae0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9aaa0
+prePOINTER: 0x5607c8f9aaa0
+postPOINTER: 0x5607c8f9aaa0
+
+V x U (sorted):
+
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 1 1 
+numl nums
+7 4 
+
+9 10 
+num: 2
+elapsed: 0
+2/frame 106
+nl:0x5607c8f9b2c0, ns:0x5607c8f9b2e0
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9b2a0
+prePOINTER: 0x5607c8f9b2a0
+postPOINTER: 0x5607c8f9b2a0
+
+V x U (sorted):
+
+1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 
+numl nums
+9 5 
+
+9 10 
+num: 2
+elapsed: 0
+2/frame 107
+nl:0x5607c8f9cc60, ns:0x5607c8f9cc80
+FOOOOOOOOO!
+prePOINTER: (nil)
+postPOINTER: 0x5607c8f9b310
+
+V x U (sorted):
+
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 1 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 1 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 1 1 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+numl nums
+35 
+
+30 
+num: 1
+elapsed: 0
+2/frame 108
+nl:0x5607c8f9e7a0, ns:0x5607c8f9e7c0
