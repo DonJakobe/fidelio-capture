@@ -4,26 +4,25 @@
 int counter=0;
 
 static int sub[length];
-int *light=NULL;
-int *shadow=NULL;
+int *lght=NULL;
+int *shdw=NULL;
 
 const int limit = 50;
-const int dist = 4;
+const int dist = 10;
 
 #include "array.h"
 #include "graph.h"
 #include "pixel.h"
 
 
-void group(void) {
+void cluster(void) {
     int i, j;
     int v, u;
     int **vu=NULL;
 
-
     initFrame(frms);
-    light = initList(light);
-    shadow = initList(shadow);
+    lght = initList(lght);
+    shdw = initList(shdw);
 
     identifyPix(limit, &v, &u, sub); // build lists of bright (>0) and dark (<0) pixels from sub
 
@@ -35,16 +34,20 @@ void group(void) {
 	return;
     }
 
-    //print2dArray(vu, v, u);
-
     sortAdj(vu, v, u); // sort vv-matrix to VV-matrix
 
     printf("\nV x U (sorted):\n");
     print2dArray(vu, v, u);
-    printf("numl nums");
-    ///print1dArray(frms->numlight, frms->num);
-    ///print1dArray(frms->numshadow, frms->num);
-    printf("num: %i\n", frms->num);
+
+    printf("LIGHT ");
+    print1dArray(frms->numLght, frms->num);
+    print2dRagged(frms->lghtPix, frms->num, frms->numLght);
+
+    printf("\n");
+
+    printf("SHADOW ");
+    print1dArray(frms->numShdw, frms->num);
+    print2dRagged(frms->shdwPix, frms->num, frms->numShdw);
 
     vu = free2dArray(vu, v);
     vu = NULL;
@@ -54,20 +57,18 @@ void group(void) {
 
 int check(void) {
 	if (frms->index == 1) counter++;
-	printf("%i/frame %i\n", counter, frms->index);
+	printf("%i/frame %i ################################################\n", counter, frms->index);
 	
 	substractFrames(frms->data, frms->prev->data, sub);
-	group();
+	cluster();
 	
 	if(frms->index == 150) {
 	    freeBuffer(frms);
-	    if (light != NULL) free(light);
-	    if (shadow != NULL) free(shadow);
+	    if (lght != NULL) free(lght);
+	    if (shdw != NULL) free(shdw);
 	    exit(0);
 	}
 
 	return 0;
 }
-
-
 

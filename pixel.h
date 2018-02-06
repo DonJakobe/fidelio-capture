@@ -14,11 +14,11 @@ void identifyPix(int l, int *nbright, int *ndark, int *frame) {
 
     for (i=0; i<length; i++) {
 	if (frame[i] > l) {
-	    light = addToList(light, i, *nbright);
+	    lght = addToList(lght, i, *nbright);
 	    *nbright = *nbright + 1;
 	}
 	else if (frame[i] < -l) {
-	    shadow = addToList(shadow, i, *ndark);
+	    shdw = addToList(shdw, i, *ndark);
 	    *ndark = *ndark + 1;
 	}
     }

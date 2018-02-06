@@ -2,10 +2,10 @@
 struct image{
 	int index;
         char *data;
-	int **lightPix;
-	int **shadowPix;
-	int *numlight;
-	int *numshadow;
+	int **lghtPix;
+	int **shdwPix;
+	int *numLght;
+	int *numShdw;
 	int num;
         struct image *prev;
         struct image *next;
@@ -24,10 +24,10 @@ struct image *buildBuffer(int size){
 
 		img->prev = tmp;
 		img->index = i;
-		img->lightPix = NULL;
-		img->shadowPix = NULL;
-		img->numlight = NULL;
-		img->numshadow = NULL;
+		img->lghtPix = NULL;
+		img->shdwPix = NULL;
+		img->numLght = NULL;
+		img->numShdw = NULL;
 		img->num = 0;
 		img->data = malloc(length);
 
@@ -55,14 +55,14 @@ void freeBuffer(struct image *img) {
 	free(img->data);
 
 	for (i=0; i<(img->num); i++) {
-	    free(img->lightPix[i]);
-	    free(img->shadowPix[i]);
+	    free(img->lghtPix[i]);
+	    free(img->shdwPix[i]);
 	}
 
-	free(img->lightPix);
-	free(img->shadowPix);
-	free(img->numlight);
-	free(img->numshadow);
+	free(img->lghtPix);
+	free(img->shdwPix);
+	free(img->numLght);
+	free(img->numShdw);
 	tmp = img->next;
 	free(img);
 	//printf("free img %p\n", tmp);
@@ -75,23 +75,23 @@ void initFrame(struct image *img) {
     int i;
 
     for (i=0; i<(img->num); i++) {
-	free(img->lightPix[i]);
-	free(img->shadowPix[i]);
-	img->lightPix[i] = NULL;
-	img->shadowPix[i] = NULL;
+	free(img->lghtPix[i]);
+	free(img->shdwPix[i]);
+	img->lghtPix[i] = NULL;
+	img->shdwPix[i] = NULL;
     }
     
     if (img->num != 0) {
-	free(img->lightPix);
-	free(img->shadowPix);
-	free(img->numlight);
-	free(img->numshadow);
+	free(img->lghtPix);
+	free(img->shdwPix);
+	free(img->numLght);
+	free(img->numShdw);
     }
 
-    img->shadowPix = NULL;
-    img->lightPix = NULL;
-    img->numlight = NULL;
-    img->numshadow = NULL;
+    img->shdwPix = NULL;
+    img->lghtPix = NULL;
+    img->numLght = NULL;
+    img->numShdw = NULL;
 
     img->num = 0;
 }
