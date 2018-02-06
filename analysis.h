@@ -17,8 +17,7 @@ const int dist = 4;
 
 void group(void) {
     int i, j;
-    int v;
-    int u;
+    int v, u;
     int **vu=NULL;
 
 
@@ -30,22 +29,25 @@ void group(void) {
 
     vu = alloc2dArray(vu, v, u); // dynamically reserve memory for matrix
 
-    buildAdj(&v, &u, dist, vu); // build adjacency matrix between bright (>0) and dark (<0) pixels
+    vu = buildAdj(&v, &u, dist, vu); // build adjacency matrix between bright (>0) and dark (<0) pixels
     
-    if ( (light == NULL) | (shadow == NULL)) return;
+    if (vu == NULL) {
+	return;
+    }
 
     //print2dArray(vu, v, u);
 
-    sortAdj(vu, v, u, frms->num); // sort vv-matrix to VV-matrix
+    sortAdj(vu, v, u); // sort vv-matrix to VV-matrix
 
     printf("\nV x U (sorted):\n");
     print2dArray(vu, v, u);
     printf("numl nums");
-    print1dArray(frms->numlight, frms->num);
-    print1dArray(frms->numshadow, frms->num);
+    ///print1dArray(frms->numlight, frms->num);
+    ///print1dArray(frms->numshadow, frms->num);
     printf("num: %i\n", frms->num);
 
     vu = free2dArray(vu, v);
+    vu = NULL;
 }
 
 
@@ -58,7 +60,9 @@ int check(void) {
 	group();
 	
 	if(frms->index == 150) {
-	    //freeBuffer(frms, buffer_size);
+	    freeBuffer(frms);
+	    if (light != NULL) free(light);
+	    if (shadow != NULL) free(shadow);
 	    exit(0);
 	}
 

@@ -45,40 +45,52 @@ struct image *buildBuffer(int size){
 	return start;
 }
 
-//not tested
-void freeBuffer(struct image *img, int size) {
-    int i;
+void freeBuffer(struct image *img) {
 
-    for (i=0; i<size; i++) {
-	printf("next: %p, next->next->prev %p\n", img->next, img->next->next->prev);
+    int i;
+    struct image *tmp = img;
+    img->prev->next = NULL;
+
+    do {
 	free(img->data);
-	//free(img->prev->next);
-	free(img->prev);
-	img = img->next;
-    }
+
+	for (i=0; i<(img->num); i++) {
+	    free(img->lightPix[i]);
+	    free(img->shadowPix[i]);
+	}
+
+	free(img->lightPix);
+	free(img->shadowPix);
+	free(img->numlight);
+	free(img->numshadow);
+	tmp = img->next;
+	free(img);
+	//printf("free img %p\n", tmp);
+	img = tmp;
+
+    } while (img != NULL);
 }
 
 void initFrame(struct image *img) {
     int i;
 
     for (i=0; i<(img->num); i++) {
-	//printf("lpi:%p, spi:%p\n", img->lightPix[i], img->shadowPix[i]);
 	free(img->lightPix[i]);
 	free(img->shadowPix[i]);
 	img->lightPix[i] = NULL;
 	img->shadowPix[i] = NULL;
     }
     
-    //printf("lp:%p, sp:%p\n", img->lightPix, img->shadowPix);
-    free(img->lightPix);
-    img->lightPix = NULL;
-    free(img->shadowPix);
-    img->shadowPix = NULL;
+    if (img->num != 0) {
+	free(img->lightPix);
+	free(img->shadowPix);
+	free(img->numlight);
+	free(img->numshadow);
+    }
 
-    printf("nl:%p, ns:%p\n", img->numlight, img->numshadow);
-    free(img->numlight);
+    img->shadowPix = NULL;
+    img->lightPix = NULL;
     img->numlight = NULL;
-    free(img->numshadow);
     img->numshadow = NULL;
 
     img->num = 0;
@@ -91,5 +103,4 @@ int getX(int index) {
 int getY(int index) {
     return index / height;
 }
-
 

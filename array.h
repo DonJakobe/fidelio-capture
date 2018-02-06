@@ -18,6 +18,7 @@ int *initList(int *list) {
     return list;
 }
 
+// remove the i-th item from one-dimensional array (i = 0, 1, 2, ...)
 int *rmFromList(int *list, int item, int cols) {
     int i=0, k=0;
     if (item < (cols-1)) { //exception when removing the last element
@@ -99,11 +100,14 @@ void switchRows(int **a, int a1, int a2, int cols) {
     int i;
     int tmp;
     
+    //printf("a1%i, a2%i, cols%i\n", a1, a2, cols);
     for (i=0; i<cols; i++) {
+	//printf("a[a1][%i]: %p a[a2][%i]: %p\n", i, &a[a1][i], i, &a[a2][i]);
 	tmp = a[a1][i];
 	a[a1][i] = a[a2][i];
 	a[a2][i] = tmp;
     }
+    //printf("\n");
 }
 
 int **rmRow(int **a, int a0, int *rows) {
@@ -171,6 +175,20 @@ void print2dArray(int **a, int rows, int cols) {
     for (i=0; i<rows; i++) {
 	for (j=0; j<cols; j++) {
 	    printf("%i ", a[i][j]);
+	}
+	printf("\n");
+    }
+}
+
+void printAdd2dArray(int **arr, int rows, int cols) {
+    int i, j;
+
+    printf("\n");
+
+    for (i=0; i<rows; i++) {
+	printf("%p : ", arr[i]);
+	for (j=0; j<cols; j++) {
+	    printf("%p ", &arr[i][j]);
 	}
 	printf("\n");
     }

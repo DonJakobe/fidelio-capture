@@ -14,8 +14,10 @@ int main() {
     
     a = (int **) malloc(4*sizeof(int *));
     for (i=0; i<4; i++) {
+	printf("%p ", a[i]);
 	a[i] = (int *) malloc(4*sizeof(int));
     }
+    printf("\n");
     
 
     //d = (int *) malloc(4*sizeof(int *));
@@ -28,6 +30,9 @@ int main() {
     }
 
     print2dArray(a, 4, 4);
+
+    printAdd2dArray(a, 4, 4);
+    printf("sizeof(int *): %d, sizeof(int): %d\n", sizeof(int *), sizeof(int));
 
     switchRows(a, 1, 2, 4);
     switchCols(a, 1, 2, 4);
