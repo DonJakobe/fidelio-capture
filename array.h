@@ -1,13 +1,13 @@
 
-int *addToList(int *list, int item, int size) {
-    list = realloc(list, (size+1)*sizeof(int));
-    list[size] = item;
-    return list;
-}
-
 int *initList(int *list) {
     free(list);
     list = NULL;
+    return list;
+}
+
+int *addToList(int *list, int item, int size) {
+    list = realloc(list, (size+1)*sizeof(int));
+    list[size] = item;
     return list;
 }
 
@@ -35,13 +35,6 @@ void switchEle(int *list, int item1, int item2) {
     return;
 }
 
-int **expandList(int **list, int item0, int rows) {
-    list = realloc(list, (rows+1)*sizeof(int *));
-    list[rows] = malloc(sizeof(int));
-    list[rows][0] = item0;
-    return list;
-}
-
 int **alloc2dArray(int **arr, int rows, int cols) {
     int i;
     arr = malloc(rows*sizeof(int *));
@@ -62,17 +55,6 @@ int **free2dArray(int **arr, int rows) {
     free(arr);
     arr = NULL;
     return arr;
-}
-
-void switchRows(int **arr, int row1, int row2, int cols) {
-    int i;
-    int tmp;
-    
-    for (i=0; i<cols; i++) {
-	tmp = arr[row1][i];
-	arr[row1][i] = arr[row2][i];
-	arr[row2][i] = tmp;
-    }
 }
 
 int **rmRow(int **arr, int row0, int *rows) {
@@ -103,6 +85,17 @@ int **rmCol(int **arr, int col0, int rows, int *cols) {
     return arr;
 }
 
+void switchRows(int **arr, int row1, int row2, int cols) {
+    int i;
+    int tmp;
+    
+    for (i=0; i<cols; i++) {
+	tmp = arr[row1][i];
+	arr[row1][i] = arr[row2][i];
+	arr[row2][i] = tmp;
+    }
+}
+
 void switchCols(int **arr, int col1, int col2, int rows) {
     int i;
     int tmp;
@@ -112,6 +105,13 @@ void switchCols(int **arr, int col1, int col2, int rows) {
 	arr[i][col1] = arr[i][col2];
 	arr[i][col2] = tmp;
     }
+}
+
+int **expandRaggedArray(int **arr, int item0, int rows) {
+    arr = realloc(arr, (rows+1)*sizeof(int *));
+    arr[rows] = malloc(sizeof(int));
+    arr[rows][0] = item0;
+    return arr;
 }
 
 void print1dArray(int *list, int dim) {
@@ -145,19 +145,28 @@ void print2dRagged(int **arr, int rows, int *size) {
     }
 }
 
-void printAdd2dArray(int **arr, int rows, int cols) {
-    int i, j;
+int *cat1dArrays(int *list1, int *list2, int dim1, int dim2) {
+    int i;
+    int *list = calloc(dim1+dim2, sizeof(int));
 
-    printf("\n");
-
-    for (i=0; i<rows; i++) {
-	printf("%p : ", arr[i]);
-	for (j=0; j<cols; j++) {
-	    printf("%p ", &arr[i][j]);
-	}
-	printf("\n");
+    for (i=0; i<(dim1+dim2); i++) {
+	if (i < dim1) list[i] = list1[i];
+	else list[i] = list2[i-dim1];
     }
+    return list;
 }
+
+    
+
+int sum1dArray(int *list, int dim) {
+   int i; 
+   int sum=0;
+   for (i=0; i<dim; i++) {
+       sum += list[i];
+   }
+   return sum;
+}
+
 
 int **cpy2dArray(int **arr, int **brr, int rows, int cols) {
     int i, j;

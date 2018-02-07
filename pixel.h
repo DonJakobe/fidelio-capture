@@ -1,4 +1,12 @@
 
+int getX(int index) {
+    return index % width;
+}
+
+int getY(int index) {
+    return index / height;
+}
+
 void substractFrames(char *frameA, char *frameB, int *diff) {
     int i;
     
@@ -23,3 +31,8 @@ void identifyPix(int l, int *nbright, int *ndark, int *frame) {
 	}
     }
 }
+
+int squareDist(int i1, int i2) {
+    return (getX(i1)-getX(i2)) * (getX(i1)-getX(i2)) + (getY(i1)-getY(i2)) * (getY(i1)-getY(i2));
+}
+

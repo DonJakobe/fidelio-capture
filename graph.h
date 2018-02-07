@@ -12,8 +12,7 @@ int **buildAdj(int *a, int *b, int d, int **ab) {
     do {
 	zero = 1;
 	for (j=0; j<*a; j++) {
-	    if ( ((getX(shdw[i])-getX(lght[j]))*(getX(shdw[i])-getX(lght[j])) +
-		  (getY(shdw[i])-getY(lght[j]))*(getY(shdw[i])-getY(lght[j]))) < d*d ) {
+	    if ( squareDist(shdw[i], lght[j]) < d*d ) {
 		ab[j][i] = 1;
 		zero = 0;
 	    } else {
@@ -62,7 +61,7 @@ int **buildAdj(int *a, int *b, int d, int **ab) {
 // r is the current row of the asymmetric (r x c)-matrix ab. c is the current column. 
 // in one loop cycle of r all other rows >nr get checked for adjacency
 // in one loop cycle of c all other columns >nc get checked for adjacency
-void sortAdj(int **ab, int rows, int cols) {
+int **sortAdj(int **ab, int rows, int cols, struct image *img) {
     int i, j;
     int r=0, c=0;
     int pr=0, pc=0;
@@ -74,11 +73,11 @@ void sortAdj(int **ab, int rows, int cols) {
 	    nr++; nc++;
 	    pr=0; pc=0;
 
-	    frms->lghtPix = expandList(frms->lghtPix, lght[r], num+1);
-	    frms->shdwPix = expandList(frms->shdwPix, shdw[c], num+1);
+	    img->lghtPix = expandRaggedArray(img->lghtPix, lght[r], num+1);
+	    img->shdwPix = expandRaggedArray(img->shdwPix, shdw[c], num+1);
 
-	    frms->numLght = addToList(frms->numLght, 1, num+1);
-	    frms->numShdw = addToList(frms->numShdw, 1, num+1);
+	    img->numLght = addToList(img->numLght, 1, num+1);
+	    img->numShdw = addToList(img->numShdw, 1, num+1);
 	    num++;
 	} else if (nr > r) {
 	    for (i=nr; i<rows; i++) {	
@@ -87,8 +86,8 @@ void sortAdj(int **ab, int rows, int cols) {
 			switchRows(ab, nr, i, cols);
 			switchEle(lght, nr, i);
 			nr++; pr++;
-			frms->lghtPix[num] = addToList(frms->lghtPix[num], lght[i], pr);
-			frms->numLght[num]++;
+			img->lghtPix[num] = addToList(img->lghtPix[num], lght[i], pr);
+			img->numLght[num]++;
 			break;
 		    }
 		}
@@ -101,8 +100,8 @@ void sortAdj(int **ab, int rows, int cols) {
 			switchCols(ab, nc, i, rows);
 			switchEle(shdw, nc, i);
 			nc++; pc++;
-			frms->shdwPix[num] = addToList(frms->shdwPix[num], shdw[i], pc);
-			frms->numShdw[num]++;
+			img->shdwPix[num] = addToList(img->shdwPix[num], shdw[i], pc);
+			img->numShdw[num]++;
 			break;
 		    }
 		}
@@ -112,6 +111,7 @@ void sortAdj(int **ab, int rows, int cols) {
 
     } while ( (nr < rows) | (nc < cols) );
     num++;
-    frms->num = num;
+    img->num = num;
+    return ab;
 }    
 

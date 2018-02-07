@@ -13,12 +13,12 @@ static char *input;
 const int buffer_size = 150;
 const int n_elapsed = 50;
 
-static struct image *frms = NULL;
+static struct image *frm = NULL;
 
 #include "met.h"
 #include "analysis.h"
 
-// write video file to frms-buffer
+// write video file to frm-buffer
 int load_file(void) {
 	FILE *fp;
 	int i;
@@ -27,8 +27,8 @@ int load_file(void) {
 	
 	// write each frame of input to data array of cyclical buffer, one at a time ("buffer_size" times)
 	for (i = 0; i < buffer_size; i++) {
-		fread(frms->data, length, 1, fp); // write to current frame
-		frms = frms->next; // jump to next frame in "frms"
+		fread(frm->data, length, 1, fp); // write to current frame
+		frm = frm->next; // jump to next frame in "frm"
 	}
 
 	fclose(fp); // close input
@@ -41,8 +41,8 @@ int write_video(void) {
 
 	// append frames to file
 	for (i = 0; i < buffer_size; i++) {
-		fwrite(frms->data, length, 1, outfd); // append current frame
-		frms = frms->next; // jump to next frame
+		fwrite(frm->data, length, 1, outfd); // append current frame
+		frm = frm->next; // jump to next frame
 	}
 
 	fclose(outfd); // close file
@@ -64,16 +64,16 @@ int mainloop(void) {
 			break;
 		}
 
-		frms = frms->next;
+		frm = frm->next;
 
-		printf("elapsed: %i\n", n);
+		//printf("elapsed: %i\n", n);
 	}
 }
 
 
 int main(int argc,char* argv[]){
     input = argv[1];
-	frms = buildBuffer(buffer_size); // generate cyclicalc buffer of size "buffer_size" frames
+	frm = buildBuffer(buffer_size); // generate cyclicalc buffer of size "buffer_size" frames
 	load_file(); // invoke the load_file() function in order to fill generated buffer with frames from "input"
 
 	mainloop(); // start the main loop

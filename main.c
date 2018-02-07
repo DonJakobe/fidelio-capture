@@ -31,7 +31,7 @@ struct buffer {
 struct buffer *buffers;
 static unsigned int n_buffers;
 
-static struct image *frms = NULL;
+static struct image *frm = NULL;
 
 static int fd = -1;
 
@@ -222,10 +222,10 @@ int process_frame(unsigned char *yuyv) {
 	unsigned int i;
 
 	for (i = 0; i < length; i++) {
-		frms->data[i] = yuyv[2*i];
+		frm->data[i] = yuyv[2*i];
 	}
 
-	frms = frms->next;
+	frm = frm->next;
 }	
 
 /*
@@ -234,9 +234,9 @@ int write_video(void) {
 	int outfd = open("video.bwv", O_RDWR | O_APPEND | O_CREAT);
 	
 	for (i = 0; i < buffer_size; i++) {
-		write(outfd, frms->data, length);
-		printf("write: %i\n", frms->index);
-		frms = frms->next;
+		write(outfd, frm->data, length);
+		printf("write: %i\n", frm->index);
+		frm = frm->next;
 	}
 
 	close(outfd);
@@ -249,8 +249,8 @@ int write_video(void) {
 	FILE *outfd = fopen("video.bwv", "a");
 
 	for (i = 0; i < buffer_size; i++) {
-		fwrite(frms->data, length, 1, outfd);
-		frms = frms->next;
+		fwrite(frm->data, length, 1, outfd);
+		frm = frm->next;
 	}
 
 	fclose(outfd);
@@ -285,7 +285,7 @@ int uninit_device(void) {
 
 
 int main() {
-	frms = buildBuffer(buffer_size);
+	frm = buildBuffer(buffer_size);
 
 	fd = open(dev_name, O_RDWR | O_NONBLOCK, 0);
 	

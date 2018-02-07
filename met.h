@@ -96,11 +96,3 @@ void initFrame(struct image *img) {
     img->num = 0;
 }
 
-int getX(int index) {
-    return index % width;
-}
-
-int getY(int index) {
-    return index / height;
-}
-
