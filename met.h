@@ -68,12 +68,12 @@ void freeBuffer(struct image *img) {
 	free(img->data);
 	free(img->lght);
 	free(img->shdw);
-	img->adj = free2dArray(img->adj, img->Nlght);
+	if (img->adj != NULL) img->adj = free2dArray(img->adj, img->Nlght);
 
 	for (i=0; i<(img->num); i++) {
 	    free(img->met[i]->lght);
 	    free(img->met[i]->shdw);
-	    //img->met[i]->weights = free2dArray(img->met[i]->weights, img->met[i]->Nlght + img->met[i]->Nshdw);
+	    img->met[i]->weights = free2dArray(img->met[i]->weights, img->met[i]->Nlght + img->met[i]->Nshdw);
 	    free(img->met[i]);
 	}
 
@@ -120,6 +120,8 @@ void printImage(struct image *img) {
 	print1dArray(img->met[i]->lght, img->met[i]->Nlght);
 	printf("SHADOW: ");
 	print1dArray(img->met[i]->shdw, img->met[i]->Nshdw);
+	printf("\n");
+	print2dArray(img->met[i]->weights, img->met[i]->Nlght + img->met[i]->Nshdw, img->met[i]->Nlght + img->met[i]->Nshdw);
 	printf("\n");
     }
 }

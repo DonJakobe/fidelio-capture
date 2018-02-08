@@ -116,3 +116,28 @@ void sortAdj(struct image *img) {
     img->num = num;
 }    
 
+void buildWeights(struct image *img) {
+    int i, j, k;
+    int N;
+    int *vtc; //Pixel (lghtPix and shdwPix belonging to one meteor)
+
+    for (i=0; i<(img->num); i++) {
+	N = img->met[i]->Nlght + img->met[i]->Nshdw;
+	vtc = cat1dArrays(img->met[i]->lght, img->met[i]->shdw, img->met[i]->Nlght, img->met[i]->Nshdw);
+	img->met[i]->weights = alloc2dArray(img->met[i]->weights, N, N);
+
+	for (j=0; j<N; j++) {
+	    for (k=0; k<(j+1); k++) {
+		if (squareDist(vtc[j], vtc[k]) < cutoff*cutoff) {
+		    img->met[i]->weights[j][k] = 100 - (100*squareDist(vtc[j], vtc[k])) / (cutoff*cutoff);
+		    img->met[i]->weights[k][j] = img->met[i]->weights[j][k];
+		} else {
+		    img->met[i]->weights[j][k] = 0;
+		    img->met[i]->weights[k][j] = 0;
+		}
+	    }
+	}
+	free(vtc);
+    }
+}
+
