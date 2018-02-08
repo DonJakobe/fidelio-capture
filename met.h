@@ -1,14 +1,25 @@
 
-struct image{
-	int index;
-        char *data;
-	int **lghtPix;
-	int **shdwPix;
-	int *numLght;
-	int *numShdw;
-	int num;
-        struct image *prev;
-        struct image *next;
+struct image {
+    int index;
+    char *data;
+    int Nlght;
+    int Nshdw;
+    int *lght;
+    int *shdw;
+    int **adj;
+    int num;
+    struct cluster **met;
+    struct image *prev;
+    struct image *next;
+};
+
+struct cluster {
+    int index;
+    int Nlght;
+    int Nshdw;
+    int *lght;
+    int *shdw;
+    int **weights;
 };
 
 struct image *buildBuffer(int size){
@@ -24,11 +35,13 @@ struct image *buildBuffer(int size){
 
 		img->prev = tmp;
 		img->index = i;
-		img->lghtPix = NULL;
-		img->shdwPix = NULL;
-		img->numLght = NULL;
-		img->numShdw = NULL;
+		img->Nlght = 0;
+		img->Nshdw = 0;
+		img->lght = NULL;
+		img->shdw = NULL;
+		img->adj = NULL;
 		img->num = 0;
+		img->met = NULL;
 		img->data = malloc(length);
 
 		if(i == size){
@@ -53,19 +66,21 @@ void freeBuffer(struct image *img) {
 
     do {
 	free(img->data);
+	free(img->lght);
+	free(img->shdw);
+	img->adj = free2dArray(img->adj, img->Nlght);
 
 	for (i=0; i<(img->num); i++) {
-	    free(img->lghtPix[i]);
-	    free(img->shdwPix[i]);
+	    free(img->met[i]->lght);
+	    free(img->met[i]->shdw);
+	    //img->met[i]->weights = free2dArray(img->met[i]->weights, img->met[i]->Nlght + img->met[i]->Nshdw);
+	    free(img->met[i]);
 	}
 
-	free(img->lghtPix);
-	free(img->shdwPix);
-	free(img->numLght);
-	free(img->numShdw);
+	free(img->met);
+
 	tmp = img->next;
 	free(img);
-	//printf("free img %p\n", tmp);
 	img = tmp;
 
     } while (img != NULL);
@@ -74,25 +89,38 @@ void freeBuffer(struct image *img) {
 void initFrame(struct image *img) {
     int i;
 
+    free(img->lght);
+    img->lght = NULL;
+    free(img->shdw);
+    img->shdw = NULL;
+
     for (i=0; i<(img->num); i++) {
-	free(img->lghtPix[i]);
-	free(img->shdwPix[i]);
-	img->lghtPix[i] = NULL;
-	img->shdwPix[i] = NULL;
-    }
-    
-    if (img->num != 0) {
-	free(img->lghtPix);
-	free(img->shdwPix);
-	free(img->numLght);
-	free(img->numShdw);
+	free(img->met[i]->lght);
+	free(img->met[i]->shdw);
+	img->met[i]->weights = free2dArray(img->met[i]->weights, img->met[i]->Nlght + img->met[i]->Nshdw);
     }
 
-    img->shdwPix = NULL;
-    img->lghtPix = NULL;
-    img->numLght = NULL;
-    img->numShdw = NULL;
+    free(img->met);
+    img->met = NULL;
 
+    img->Nlght = 0;
+    img->Nshdw = 0;
     img->num = 0;
 }
 
+void printImage(struct image *img) {
+    int i;
+    printf("\n");
+    print2dArray(img->adj, img->Nlght, img->Nshdw);
+    printf("\n");
+
+    for (i=0; i<(img->num); i++) {
+	printf("meteor =%i=\n", i);
+	printf("LIGHT: ");
+	print1dArray(img->met[i]->lght, img->met[i]->Nlght);
+	printf("SHADOW: ");
+	print1dArray(img->met[i]->shdw, img->met[i]->Nshdw);
+	printf("\n");
+    }
+}
+	

@@ -1,93 +1,95 @@
 
-int **buildAdj(int *a, int *b, int d, int **ab) {
-    int i=0, j;
+int buildAdj(struct image *img, int dist) {
+    int i, j;
     int zero = 1;
 
-    if ( (lght == NULL) | (shdw == NULL) ) {
-	free2dArray(ab, *a);
-	ab = NULL;
-	return ab;
+    if ( (img->lght == NULL) | (img->shdw == NULL) ) {
+	return 1;
     }
+
+    img->adj = alloc2dArray(img->adj, img->Nlght, img->Nshdw);
+
+    i = 0;
 
     do {
 	zero = 1;
-	for (j=0; j<*a; j++) {
-	    if ( squareDist(shdw[i], lght[j]) < d*d ) {
-		ab[j][i] = 1;
+	for (j=0; j<(img->Nlght); j++) {
+	    if ( squareDist(img->shdw[i], img->lght[j]) < dist*dist ) {
+		img->adj[j][i] = 1;
 		zero = 0;
 	    } else {
-		ab[j][i] = 0;
+		img->adj[j][i] = 0;
 	    }
 	}
 	if (zero == 1) {
-	    shdw = rmFromList(shdw, i, *b);
-	    ab = rmCol(ab, i, *a, b);
+	    img->shdw = rmFromList(img->shdw, i, img->Nshdw);
+	    img->adj = rmCol(img->adj, i, img->Nlght, &(img->Nshdw));
 	} else {
 	    i++;
 	}
-    } while (i < *b);
+    } while (i < img->Nshdw);
 
-    if (shdw == NULL) {
-	free2dArray(ab, *a);
-	ab = NULL;
-	return ab;
+    if (img->shdw == NULL) {
+	return 1;
     }
 
     i = 0;
     do {
 	zero = 1;
-	for (j=0; j<*b; j++) {
-	    if (ab[i][j] == 1) {
+	for (j=0; j<(img->Nshdw); j++) {
+	    if (img->adj[i][j] == 1) {
 		zero = 0;
 	    }
 	}
 	if (zero == 1) {
-	    lght = rmFromList(lght, i, *a);
-	    ab = rmRow(ab, i, a);
+	    img->lght = rmFromList(img->lght, i, img->Nlght);
+	    img->adj = rmRow(img->adj, i, &(img->Nlght));
 	} else {
 	    i++;
 	}
-    } while (i < *a);    
-
-    if (lght == NULL) {
-	free2dArray(ab, *a);
-	ab = NULL;
-	return ab;
+    } while (i < img->Nlght);    
+    
+    if (img->lght == NULL) {
+	return 1;
     }
-
-    return ab;
 }
 
 // r is the current row of the asymmetric (r x c)-matrix ab. c is the current column. 
 // in one loop cycle of r all other rows >nr get checked for adjacency
 // in one loop cycle of c all other columns >nc get checked for adjacency
-int **sortAdj(int **ab, int rows, int cols, struct image *img) {
+void sortAdj(struct image *img) {
     int i, j;
     int r=0, c=0;
     int pr=0, pc=0;
     int nr=0, nc=0;
+    int rows = img->Nlght, cols = img->Nshdw;
     int num=-1;
 
     do {
 	if (nr == r & nc == c) {
 	    nr++; nc++;
+	    num++;
 	    pr=0; pc=0;
 
-	    img->lghtPix = expandRaggedArray(img->lghtPix, lght[r], num+1);
-	    img->shdwPix = expandRaggedArray(img->shdwPix, shdw[c], num+1);
+	    img->met = realloc(img->met, (num+1) * sizeof(struct cluster *));
+	    img->met[num] = malloc(sizeof(struct cluster));
+	    img->met[num]->lght = NULL;
+	    img->met[num]->shdw = NULL;
 
-	    img->numLght = addToList(img->numLght, 1, num+1);
-	    img->numShdw = addToList(img->numShdw, 1, num+1);
-	    num++;
+	    img->met[num]->lght = addToList(img->met[num]->lght, img->lght[r], 0);
+	    img->met[num]->shdw = addToList(img->met[num]->shdw, img->shdw[c], 0);
+	    img->met[num]->Nlght = 1;
+	    img->met[num]->Nshdw = 1;
+
 	} else if (nr > r) {
 	    for (i=nr; i<rows; i++) {	
 		for (j=0; j<cols; j++) {
-		    if ((ab[r][j] == 1) & (ab[i][j] == 1) ) {
-			switchRows(ab, nr, i, cols);
-			switchEle(lght, nr, i);
+		    if ((img->adj[r][j] == 1) & (img->adj[i][j] == 1) ) {
+			switchRows(img->adj, nr, i, cols);
+			switchEle(img->lght, nr, i);
 			nr++; pr++;
-			img->lghtPix[num] = addToList(img->lghtPix[num], lght[i], pr);
-			img->numLght[num]++;
+			img->met[num]->lght = addToList(img->met[num]->lght, img->lght[i], pr);
+			img->met[num]->Nlght++;
 			break;
 		    }
 		}
@@ -96,12 +98,12 @@ int **sortAdj(int **ab, int rows, int cols, struct image *img) {
 	} else if (nc > c) {
 	    for (i=nc; i<cols; i++) {	
 		for (j=0; j<rows; j++) {
-		    if ((ab[j][c] == 1) & (ab[j][i] == 1) ) {
-			switchCols(ab, nc, i, rows);
-			switchEle(shdw, nc, i);
+		    if ((img->adj[j][c] == 1) & (img->adj[j][i] == 1) ) {
+			switchCols(img->adj, nc, i, rows);
+			switchEle(img->shdw, nc, i);
 			nc++; pc++;
-			img->shdwPix[num] = addToList(img->shdwPix[num], shdw[i], pc);
-			img->numShdw[num]++;
+			img->met[num]->shdw = addToList(img->met[num]->shdw, img->shdw[i], pc);
+			img->met[num]->Nshdw++;
 			break;
 		    }
 		}
@@ -112,6 +114,5 @@ int **sortAdj(int **ab, int rows, int cols, struct image *img) {
     } while ( (nr < rows) | (nc < cols) );
     num++;
     img->num = num;
-    return ab;
 }    
 

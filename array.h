@@ -107,13 +107,6 @@ void switchCols(int **arr, int col1, int col2, int rows) {
     }
 }
 
-int **expandRaggedArray(int **arr, int item0, int rows) {
-    arr = realloc(arr, (rows+1)*sizeof(int *));
-    arr[rows] = malloc(sizeof(int));
-    arr[rows][0] = item0;
-    return arr;
-}
-
 void print1dArray(int *list, int dim) {
     int i;
 
@@ -134,17 +127,6 @@ void print2dArray(int **arr, int rows, int cols) {
     }
 }
 
-void print2dRagged(int **arr, int rows, int *size) {
-    int i, j;
-
-    for (i=0; i<rows; i++) {
-	for (j=0; j<size[i]; j++) {
-	    printf("%i ", arr[i][j]);
-	}
-	printf("\n");
-    }
-}
-
 int *cat1dArrays(int *list1, int *list2, int dim1, int dim2) {
     int i;
     int *list = calloc(dim1+dim2, sizeof(int));
@@ -155,8 +137,6 @@ int *cat1dArrays(int *list1, int *list2, int dim1, int dim2) {
     }
     return list;
 }
-
-    
 
 int sum1dArray(int *list, int dim) {
    int i; 

@@ -15,6 +15,21 @@ const int n_elapsed = 50;
 
 static struct image *frm = NULL;
 
+int *initList(int *list);
+int *addToList(int *list, int item, int size);
+int *rmFromList(int *list, int item, int cols);
+void switchEle(int *list, int item1, int item2);
+//int *cat1dArrays();
+//int sum1dArray();
+int **alloc2dArray(int **arr, int rows, int cols);
+int **free2dArray(int **arr, int rows);
+int **rmRow(int **arr, int row0, int *rows);
+int **rmCol(int **arr, int col0, int rows, int *cols);
+void switchRows(int **arr, int row1, int row2, int cols);
+void switchCols(int **arr, int col1, int col2, int rows);
+void print1dArray(int *list, int dim);
+void print2dArray(int **arr, int rows, int cols);
+
 #include "met.h"
 #include "analysis.h"
 

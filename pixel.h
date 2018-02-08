@@ -7,27 +7,27 @@ int getY(int index) {
     return index / height;
 }
 
-void substractFrames(char *frameA, char *frameB, int *diff) {
+int *substractFrames(char *frameA, char *frameB) {
     int i;
+    static int diff[length];
     
     for (i=0; i<length; i++){
 	diff[i] = (int) (frameA[i]) - (int) (frameB[i]);
     }
+    return diff;
 }
 
-void identifyPix(int l, int *nbright, int *ndark, int *frame) {
+void identifyPix(struct image *img, int *diff, int lim) {
     int i;
-    *nbright = 0;
-    *ndark = 0;
 
     for (i=0; i<length; i++) {
-	if (frame[i] > l) {
-	    lght = addToList(lght, i, *nbright);
-	    *nbright = *nbright + 1;
+	if (diff[i] > lim) {
+	    img->lght = addToList(img->lght, i, img->Nlght);
+	    img->Nlght++;
 	}
-	else if (frame[i] < -l) {
-	    shdw = addToList(shdw, i, *ndark);
-	    *ndark = *ndark + 1;
+	else if (diff[i] < -lim) {
+	    img->shdw = addToList(img->shdw, i, img->Nshdw);
+	    img->Nshdw++;
 	}
     }
 }
