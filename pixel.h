@@ -36,3 +36,18 @@ int squareDist(int i1, int i2) {
     return (getX(i1)-getX(i2)) * (getX(i1)-getX(i2)) + (getY(i1)-getY(i2)) * (getY(i1)-getY(i2));
 }
 
+void metPos(struct image *img) {
+    int i, j;
+    float meanX, meanY;
+
+    for (i=0; i<(img->num); i++) {
+	meanX = 0;
+	meanY = 0;
+	for (j=0; j<(img->met[i]->Nlght); j++) {
+	    meanX += (float) getX(img->met[i]->lght[j]);
+	    meanY += (float) getY(img->met[i]->lght[j]);
+	}
+	img->met[i]->posX = meanX/img->met[i]->Nlght;
+	img->met[i]->posY = meanY/img->met[i]->Nlght;
+    }
+}

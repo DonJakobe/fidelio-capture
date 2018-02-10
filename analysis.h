@@ -1,8 +1,6 @@
 
 #include <string.h>
 
-int counter=0;
-
 const int limit = 50;
 static int cutoff = 10;
 
@@ -12,8 +10,8 @@ static int cutoff = 10;
 
 
 void cluster(struct image *img) {
-    int i, j;
     int *sub=NULL;
+
     initFrame(img);
 
     sub = substractFrames(img->data, img->prev->data);
@@ -22,16 +20,28 @@ void cluster(struct image *img) {
     if ( buildAdj(img, cutoff) == 1) return; // build adjacency matrix between bright (>0) and dark (<0) pixels
     
     sortAdj(img); // sort vv-matrix to VV-matrix
-
+    metPos(img);
+    assignContinuity(img, 20, 3);
 }
 
-
-int check(void) {
-    if (frm->index == 1) counter++;
-    printf("%i/frame %i ################################################\n", counter, frm->index);
+void analyseGraphs(struct image *img) {
+    int i;
     
+    for (i=0; i<(img->num); i++) {
+	img->met[i]->Ntot = img->met[i]->Nlght + img->met[i]->Nshdw;
+
+	buildWeights(img->met[i]);
+	density(img->met[i]);
+	traceMeteor(img->met[i]);
+    }
+}
+
+int analyseFrame(void) {
+
+    printf("frame %i ################################################\n", frm->index);
+   
     cluster(frm);
-    buildWeights(frm);
+    analyseGraphs(frm);
     printImage(frm);
     
     if(frm->index == 150) {

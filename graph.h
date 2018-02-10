@@ -63,33 +63,28 @@ void sortAdj(struct image *img) {
     int pr=0, pc=0;
     int nr=0, nc=0;
     int rows = img->Nlght, cols = img->Nshdw;
-    int num=-1;
+
+    img->num = -1;
 
     do {
-	if (nr == r & nc == c) {
+	if (nr == r && nc == c) {
 	    nr++; nc++;
-	    num++;
+	    img->num++;
 	    pr=0; pc=0;
 
-	    img->met = realloc(img->met, (num+1) * sizeof(struct cluster *));
-	    img->met[num] = malloc(sizeof(struct cluster));
-	    img->met[num]->lght = NULL;
-	    img->met[num]->shdw = NULL;
-
-	    img->met[num]->lght = addToList(img->met[num]->lght, img->lght[r], 0);
-	    img->met[num]->shdw = addToList(img->met[num]->shdw, img->shdw[c], 0);
-	    img->met[num]->Nlght = 1;
-	    img->met[num]->Nshdw = 1;
+	    addNewGraph(img);
+	    img->met[img->num]->lght[0] = img->lght[r];
+	    img->met[img->num]->shdw[0] = img->shdw[c];
 
 	} else if (nr > r) {
 	    for (i=nr; i<rows; i++) {	
 		for (j=0; j<cols; j++) {
-		    if ((img->adj[r][j] == 1) & (img->adj[i][j] == 1) ) {
+		    if ((img->adj[r][j] == 1) && (img->adj[i][j] == 1) ) {
 			switchRows(img->adj, nr, i, cols);
 			switchEle(img->lght, nr, i);
 			nr++; pr++;
-			img->met[num]->lght = addToList(img->met[num]->lght, img->lght[i], pr);
-			img->met[num]->Nlght++;
+			img->met[img->num]->lght = addToList(img->met[img->num]->lght, img->lght[i], pr);
+			img->met[img->num]->Nlght++;
 			break;
 		    }
 		}
@@ -98,12 +93,12 @@ void sortAdj(struct image *img) {
 	} else if (nc > c) {
 	    for (i=nc; i<cols; i++) {	
 		for (j=0; j<rows; j++) {
-		    if ((img->adj[j][c] == 1) & (img->adj[j][i] == 1) ) {
+		    if ((img->adj[j][c] == 1) && (img->adj[j][i] == 1) ) {
 			switchCols(img->adj, nc, i, rows);
 			switchEle(img->shdw, nc, i);
 			nc++; pc++;
-			img->met[num]->shdw = addToList(img->met[num]->shdw, img->shdw[i], pc);
-			img->met[num]->Nshdw++;
+			img->met[img->num]->shdw = addToList(img->met[img->num]->shdw, img->shdw[i], pc);
+			img->met[img->num]->Nshdw++;
 			break;
 		    }
 		}
@@ -112,32 +107,40 @@ void sortAdj(struct image *img) {
 	} 
 
     } while ( (nr < rows) | (nc < cols) );
-    num++;
-    img->num = num;
+    img->num++;
 }    
 
-void buildWeights(struct image *img) {
-    int i, j, k;
+void buildWeights(struct graph *met) {
+    int i, j;
     int N;
     int *vtc; //Pixel (lghtPix and shdwPix belonging to one meteor)
 
-    for (i=0; i<(img->num); i++) {
-	N = img->met[i]->Nlght + img->met[i]->Nshdw;
-	vtc = cat1dArrays(img->met[i]->lght, img->met[i]->shdw, img->met[i]->Nlght, img->met[i]->Nshdw);
-	img->met[i]->weights = alloc2dArray(img->met[i]->weights, N, N);
+    vtc = cat1dArrays(met->lght, met->shdw, met->Nlght, met->Nshdw);
+    met->weights = alloc2dArray(met->weights, met->Ntot, met->Ntot);
 
-	for (j=0; j<N; j++) {
-	    for (k=0; k<(j+1); k++) {
-		if (squareDist(vtc[j], vtc[k]) < cutoff*cutoff) {
-		    img->met[i]->weights[j][k] = 100 - (100*squareDist(vtc[j], vtc[k])) / (cutoff*cutoff);
-		    img->met[i]->weights[k][j] = img->met[i]->weights[j][k];
-		} else {
-		    img->met[i]->weights[j][k] = 0;
-		    img->met[i]->weights[k][j] = 0;
-		}
+    for (i=0; i<(met->Ntot); i++) {
+	for (j=0; j<(i+1); j++) {
+	    if ( (i != j) && (squareDist(vtc[i], vtc[j]) < cutoff*cutoff) ) {
+		met->weights[i][j] = 100 - (100*squareDist(vtc[i], vtc[j])) / (cutoff*cutoff);
+		met->weights[j][i] = met->weights[i][j];
+	    } else {
+		met->weights[i][j] = 0;
+		met->weights[j][i] = 0;
 	    }
 	}
-	free(vtc);
     }
+    free(vtc);
+}
+
+void density(struct graph *met) {
+    int i, j;
+    int sum=0;
+
+    for (i=1; i<(met->Ntot); i++) {
+	for (j=0; j<i; j++) {
+	    sum += met->weights[i][j];
+	}
+    }
+    met->dens = (float) sum / (float) (met->Ntot*met->Ntot - met->Ntot);
 }
 

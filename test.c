@@ -68,7 +68,7 @@ int write_video(void) {
 int mainloop(void) {
 	int n = 0;
 	while (1) {
-		if (1 == check())
+		if (1 == analyseFrame())
 			n++;
 		else
 			n = 0;
