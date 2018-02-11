@@ -1,8 +1,9 @@
 
 #include <string.h>
 
-const int limit = 50;
+static int limit = 50;
 static int cutoff = 10;
+static int wcutoff = 5;
 
 #include "pixel.h"
 #include "array.h"
@@ -30,9 +31,9 @@ void analyseGraphs(struct image *img) {
     for (i=0; i<(img->num); i++) {
 	img->met[i]->Ntot = img->met[i]->Nlght + img->met[i]->Nshdw;
 
-	buildWeights(img->met[i]);
+	buildWeights(img->met[i], wcutoff);
 	density(img->met[i]);
-	traceMeteor(img->met[i]);
+	backTraceMeteor(img->met[i]);
     }
 }
 

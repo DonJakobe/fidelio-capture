@@ -153,19 +153,22 @@ void assignContinuity(struct image *img, int dist, int depth) {
     }
 }
 
-void traceMeteor(struct graph *met0) {
+int backTraceMeteor(struct graph *met0) {
     struct graph *met;
     met = met0;
 
+    printf("X\t\tY\t\tdens\t\tnum \n");
+
     while (met != NULL) {
-	printf("%f \t", met->posX);
-	printf("%f \t", met->posY);
-	printf("%f \t", met->dens);
+	printf("%f\t", met->posX);
+	printf("%f\t", met->posY);
+	printf("%f\t", met->dens);
+	printf("%i\t", met->Ntot);
 	printf("\n");
 	met = met->prev;
     }
+    printf("\n");
 }
-    
 
 void printImage(struct image *img) {
     int i;

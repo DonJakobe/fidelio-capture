@@ -110,9 +110,8 @@ void sortAdj(struct image *img) {
     img->num++;
 }    
 
-void buildWeights(struct graph *met) {
+void buildWeights(struct graph *met, int upper) {
     int i, j;
-    int N;
     int *vtc; //Pixel (lghtPix and shdwPix belonging to one meteor)
 
     vtc = cat1dArrays(met->lght, met->shdw, met->Nlght, met->Nshdw);
@@ -120,8 +119,7 @@ void buildWeights(struct graph *met) {
 
     for (i=0; i<(met->Ntot); i++) {
 	for (j=0; j<(i+1); j++) {
-	    if ( (i != j) && (squareDist(vtc[i], vtc[j]) < cutoff*cutoff) ) {
-		met->weights[i][j] = 100 - (100*squareDist(vtc[i], vtc[j])) / (cutoff*cutoff);
+	    if ( (i != j) && ( (met->weights[i][j] = 100 - (100*squareDist(vtc[i], vtc[j])) / (upper*upper)) > 0 ) ) {
 		met->weights[j][i] = met->weights[i][j];
 	    } else {
 		met->weights[i][j] = 0;
