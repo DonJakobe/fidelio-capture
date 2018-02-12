@@ -132,7 +132,20 @@ void buildWeights(struct graph *met, int upper) {
     }
 }
 
-void density(struct graph *met) {
+void degrees(struct graph *met) {
+    int i;
+    met->deg = malloc(met->Nvtc * sizeof(int));
+    
+    for (i=0; i<(met->Nvtc); i++) {
+	met->deg[i] = sum1dArray(met->weights[i], met->Nvtc);
+    }
+}
+
+void meanDegree(struct graph *met) {
+   met->mDegree = sum1dArray(met->deg, met->Nvtc) / met->Nvtc;
+}
+
+void meanWeight(struct graph *met) {
     int i, j;
     int sum=0;
 
@@ -143,6 +156,35 @@ void density(struct graph *met) {
 	    sum += met->weights[i][j];
 	}
     }
-    met->dens = (float) sum / (float) (N*N - N) * 2;
+    met->mWeight = sum / (N*N - N) * 2;
 }
 
+/*
+int degreeOfDisconnectivity(struct graph *met, int **weights) {
+    int i, j, k;
+    int con;
+    int dcon=0;
+
+    for (i=0; i<(met->Nvtc); i++) {
+	con = 0;
+	for (j=0; j<(met->Nvtc); j++) {
+	    for (k=0; k<(met->Nvtc); k++) {
+		if ( (i != j) && (weights[i][k] > 0) && (weights[j][k] > 0) ) {
+		    con = 1;
+		    break;
+		}
+	    }
+	    if (con = 1) break;
+	}
+	if (con = 0) dcon++;
+    }
+    return dcon;
+}
+
+void connectivity(struct graph *met) {
+    int **weights = alloc2dArray(weights, met->Nvtc, met->Nvtc);
+    weights = cpy2dArray(met->weights, weights, met->Nvtc, met->Nvtc);
+
+    free2dArray(weights, met->Nvtc);
+}
+*/

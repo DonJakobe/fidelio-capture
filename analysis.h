@@ -32,7 +32,9 @@ int analyseGraphs(struct image *img) {
 	assignContinuity(img, img->met[i], 20, 3);
 
 	buildWeights(img->met[i], wcutoff);
-	density(img->met[i]);
+	degrees(img->met[i]);
+	meanDegree(img->met[i]);
+	meanWeight(img->met[i]);
 
 	getVelocity(img->met[i]);
     }
@@ -46,11 +48,11 @@ int analyseGraphs(struct image *img) {
 
 int analyseFrame(void) {
 
-    //printf("frame %i ################################################\n", frm->index);
+    printf("frame %i ################################################\n", frm->index);
    
     cluster(frm);
     analyseGraphs(frm);
-    //printImage(frm);
+    printImage(frm);
     
     if(frm->index == 150) {
 	freeBuffer(frm);

@@ -21,14 +21,16 @@ struct graph {
     int *shdw;
     int *vtc;
     int **weights;
+    int *deg;
     float posX;
     float posY;
     float posVar;
     float vx;
     float vy;
     float R;
-    float direction;
     float dens;
+    int mWeight;
+    int mDegree;
     int continuity;
     struct graph *prev;
     struct graph *next;
@@ -75,6 +77,7 @@ void initGraph(struct graph *met) {
     free(met->shdw);
     free(met->vtc);
     met->weights = free2dArray(met->weights, met->Nvtc);
+    free(met->deg);
 }
 
 void freeBuffer(struct image *img) {
@@ -112,6 +115,7 @@ void addNewGraph(struct image *img) {
     img->met[img->num]->Nshdw = 1;
     img->met[img->num]->Nvtc = 2;
     img->met[img->num]->vtc = NULL;
+    img->met[img->num]->deg = NULL;
     img->met[img->num]->prev = NULL;
     img->met[img->num]->next = NULL;
 }
@@ -227,7 +231,7 @@ void printImage(struct image *img) {
     */
 
     for (i=0; i<(img->num); i++) {
-	printf("meteor =%i= || postion: X = %.2f, Y = %.2f (Var=%.2f) | velocity: vx = %.3f, vy = %.3f (R=%.4f) | density = %.2f | continuity = %i\n", i, img->met[i]->posX, img->met[i]->posY, img->met[i]->posVar, img->met[i]->vx, img->met[i]->vy, img->met[i]->R, img->met[i]->dens, img->met[i]->continuity);
+	printf("meteor =%i= || postion: X = %.2f, Y = %.2f (Var=%.2f) | velocity: vx = %.3f, vy = %.3f (R=%.4f) | mean weight = %i | mean degree = %i | continuity = %i\n", i, img->met[i]->posX, img->met[i]->posY, img->met[i]->posVar, img->met[i]->vx, img->met[i]->vy, img->met[i]->R, img->met[i]->mWeight, img->met[i]->mDegree, img->met[i]->continuity);
 	/*
 	printf("LIGHT: ");
 	print1dArray(img->met[i]->lght, img->met[i]->Nlght);
@@ -235,6 +239,7 @@ void printImage(struct image *img) {
 	print1dArray(img->met[i]->shdw, img->met[i]->Nshdw);
 	printf("\n");
 	print2dArray(img->met[i]->weights, img->met[i]->Nvtc, img->met[i]->Nvtc);
+	if (img->met[i]->deg != NULL) print1dArray(img->met[i]->deg, img->met[i]->Nvtc);
 	*/
 	printf("\n");
     }
