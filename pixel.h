@@ -36,18 +36,20 @@ int squareDist(int i1, int i2) {
     return (getX(i1)-getX(i2)) * (getX(i1)-getX(i2)) + (getY(i1)-getY(i2)) * (getY(i1)-getY(i2));
 }
 
-void metPos(struct image *img) {
+void getPosition(struct graph *met) {
     int i, j;
-    float meanX, meanY;
+    float meanX=0, meanY=0;
+    float meanX2=0, meanY2=0;
 
-    for (i=0; i<(img->num); i++) {
-	meanX = 0;
-	meanY = 0;
-	for (j=0; j<(img->met[i]->Nlght); j++) {
-	    meanX += (float) getX(img->met[i]->lght[j]);
-	    meanY += (float) getY(img->met[i]->lght[j]);
-	}
-	img->met[i]->posX = meanX/img->met[i]->Nlght;
-	img->met[i]->posY = meanY/img->met[i]->Nlght;
+    int N = met->Nvtc;
+    
+    for (j=0; j<N; j++) {
+	meanX += (float) getX(met->vtc[j]);
+	meanX2 += (float) getX(met->vtc[j]) * getX(met->vtc[j]);
+	meanY += (float) getY(met->vtc[j]);
+	meanY2 += (float) getY(met->vtc[j]) * getY(met->vtc[j]);
     }
+    met->posX = meanX/N;
+    met->posY = meanY/N;
+    met->posVar = (meanX2/N - meanX*meanX/(N*N)) * (meanY2/N - meanY*meanY/(N*N));
 }

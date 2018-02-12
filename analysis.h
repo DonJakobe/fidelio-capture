@@ -3,7 +3,8 @@
 
 static int limit = 50;
 static int cutoff = 10;
-static int wcutoff = 5;
+static int wcutoff = 10;
+static int duration = 5;
 
 #include "pixel.h"
 #include "array.h"
@@ -20,30 +21,36 @@ void cluster(struct image *img) {
 
     if ( buildAdj(img, cutoff) == 1) return; // build adjacency matrix between bright (>0) and dark (<0) pixels
     
-    sortAdj(img); // sort vv-matrix to VV-matrix
-    metPos(img);
-    assignContinuity(img, 20, 3);
+    generateGraphs(img); // sort vv-matrix to VV-matrix
 }
 
-void analyseGraphs(struct image *img) {
+int analyseGraphs(struct image *img) {
     int i;
     
     for (i=0; i<(img->num); i++) {
-	img->met[i]->Ntot = img->met[i]->Nlght + img->met[i]->Nshdw;
+	getPosition(img->met[i]);
+	assignContinuity(img, img->met[i], 20, 3);
 
 	buildWeights(img->met[i], wcutoff);
 	density(img->met[i]);
-	backTraceMeteor(img->met[i]);
+
+	getVelocity(img->met[i]);
     }
+
+    for (i=0; i<(img->num); i++) {
+	//backTraceMeteor(img->met[i]);
+    }
+
+    return 0;
 }
 
 int analyseFrame(void) {
 
-    printf("frame %i ################################################\n", frm->index);
+    //printf("frame %i ################################################\n", frm->index);
    
     cluster(frm);
     analyseGraphs(frm);
-    printImage(frm);
+    //printImage(frm);
     
     if(frm->index == 150) {
 	freeBuffer(frm);

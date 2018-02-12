@@ -14,14 +14,20 @@ struct image {
 };
 
 struct graph {
-    float posX;
-    float posY;
     int Nlght;
     int Nshdw;
-    int Ntot;
+    int Nvtc;
     int *lght;
     int *shdw;
+    int *vtc;
     int **weights;
+    float posX;
+    float posY;
+    float posVar;
+    float vx;
+    float vy;
+    float R;
+    float direction;
     float dens;
     int continuity;
     struct graph *prev;
@@ -64,6 +70,13 @@ struct image *buildBuffer(int size){
 	return start;
 }
 
+void initGraph(struct graph *met) {
+    free(met->lght);
+    free(met->shdw);
+    free(met->vtc);
+    met->weights = free2dArray(met->weights, met->Nvtc);
+}
+
 void freeBuffer(struct image *img) {
 
     int i;
@@ -77,9 +90,7 @@ void freeBuffer(struct image *img) {
 	if (img->adj != NULL) img->adj = free2dArray(img->adj, img->Nlght);
 
 	for (i=0; i<(img->num); i++) {
-	    free(img->met[i]->lght);
-	    free(img->met[i]->shdw);
-	    img->met[i]->weights = free2dArray(img->met[i]->weights, img->met[i]->Nlght + img->met[i]->Nshdw);
+	    initGraph(img->met[i]);
 	    free(img->met[i]);
 	}
 
@@ -99,17 +110,12 @@ void addNewGraph(struct image *img) {
     img->met[img->num]->shdw = malloc(sizeof(int));
     img->met[img->num]->Nlght = 1;
     img->met[img->num]->Nshdw = 1;
+    img->met[img->num]->Nvtc = 2;
+    img->met[img->num]->vtc = NULL;
     img->met[img->num]->prev = NULL;
     img->met[img->num]->next = NULL;
 }
     
-
-void initGraph(struct graph *met) {
-    free(met->lght);
-    free(met->shdw);
-    met->weights = free2dArray(met->weights, met->Ntot);
-}
-
 void initFrame(struct image *img) {
     int i;
 
@@ -130,61 +136,105 @@ void initFrame(struct image *img) {
     img->num = 0;
 }
 
-void assignContinuity(struct image *img, int dist, int depth) {
+void assignContinuity(struct image *img, struct graph *met, int dist, int depth) {
     int deg, i, j;
-    struct image *ref;
 
-    for (i=0; i<(img->num); i++) {
-	img->met[i]->continuity = 0;
-	ref = img->prev;
-	for (deg=1; deg<(depth+1); deg++) {
-	    for (j=0; j<(ref->num); j++) {
-		if ( ((img->met[i]->posX - ref->met[j]->posX) * (img->met[i]->posX - ref->met[j]->posX) +
-		      (img->met[i]->posY - ref->met[j]->posY) * (img->met[i]->posY - ref->met[j]->posY)) < (deg*deg * dist*dist) ) {
-		    img->met[i]->prev = ref->met[j];
-		    if (ref->met[j] == NULL) ref->met[j]->next = img->met[i];
-		    img->met[i]->continuity = deg;
-		    break;
-		}
+    met->continuity = 0;
+    
+    for (deg=1; deg<(depth+1); deg++) {
+	img = img->prev;
+	for (j=0; j<(img->num); j++) {
+	    if ( ((met->posX - img->met[j]->posX) * (met->posX - img->met[j]->posX) +
+		  (met->posY - img->met[j]->posY) * (met->posY - img->met[j]->posY)) < (deg*deg * dist*dist) ) {
+		met->prev = img->met[j];
+		if (img->met[j] == NULL) img->met[j]->next = met;
+		met->continuity = deg;
+		break;
 	    }
-	    if (img->met[i]->continuity > 0) break;
-	    else ref = ref->prev;
 	}
+	if (met->continuity > 0) break;
     }
 }
 
+void getVelocity(struct graph *met0) {
+    float vx, vy;
+    float Rx, Ry;
+
+    float tsum=0, t2sum=0;
+    float xsum=0, x2sum=0;
+    float ysum=0, y2sum=0;
+    float xtsum=0, ytsum=0;
+
+    int n=0, t=0;
+
+    struct graph *met = met0;
+
+    while (met->prev != NULL) {
+	tsum += t;
+	t2sum += t*t;
+
+	xsum += met->posX;
+	x2sum += met->posX * met->posX;
+
+	ysum += met->posY;
+	y2sum += met->posY * met->posY;
+
+	xtsum += met->posX * t;
+	ytsum += met->posY * t;
+
+	t -= met->continuity;
+	n++;
+	met = met->prev;
+    }
+
+    vx = (n*xtsum - tsum*xsum) / (n*t2sum - tsum*tsum);
+    vy = (n*ytsum - tsum*ysum) / (n*t2sum - tsum*tsum);
+    Rx = ((n*xtsum-xsum*tsum)*(n*xtsum-xsum*tsum))/((n*x2sum-xsum*xsum)*(n*t2sum-tsum*tsum));
+    Ry = ((n*ytsum-ysum*tsum)*(n*ytsum-ysum*tsum))/((n*y2sum-ysum*ysum)*(n*t2sum-tsum*tsum));
+
+    met0->vx = vx;
+    met0->vy = vy;
+    met0->R = Rx*Ry;
+}
+    
 int backTraceMeteor(struct graph *met0) {
+    int i=0;
     struct graph *met;
     met = met0;
 
-    printf("X\t\tY\t\tdens\t\tnum \n");
+    printf("X\t\tY\t\txyVar\t\tdens\t\tnum \n");
 
     while (met != NULL) {
 	printf("%f\t", met->posX);
 	printf("%f\t", met->posY);
+	printf("%f\t", met->posVar);
 	printf("%f\t", met->dens);
-	printf("%i\t", met->Ntot);
+	printf("%i\t", met->Nvtc);
 	printf("\n");
 	met = met->prev;
+	i++;
     }
     printf("\n");
+    return i;
 }
 
 void printImage(struct image *img) {
     int i;
     printf("\n");
+    /*
     print2dArray(img->adj, img->Nlght, img->Nshdw);
     printf("\n");
+    */
 
     for (i=0; i<(img->num); i++) {
-	printf("meteor =%i= || postion: X = %f, Y = %f | density = %f | continuity = %i\n", i, img->met[i]->posX, img->met[i]->posY, img->met[i]->dens, img->met[i]->continuity);
+	printf("meteor =%i= || postion: X = %.2f, Y = %.2f (Var=%.2f) | velocity: vx = %.3f, vy = %.3f (R=%.4f) | density = %.2f | continuity = %i\n", i, img->met[i]->posX, img->met[i]->posY, img->met[i]->posVar, img->met[i]->vx, img->met[i]->vy, img->met[i]->R, img->met[i]->dens, img->met[i]->continuity);
 	/*
 	printf("LIGHT: ");
 	print1dArray(img->met[i]->lght, img->met[i]->Nlght);
 	printf("SHADOW: ");
 	print1dArray(img->met[i]->shdw, img->met[i]->Nshdw);
 	printf("\n");
-	print2dArray(img->met[i]->weights, img->met[i]->Nlght + img->met[i]->Nshdw, img->met[i]->Nlght + img->met[i]->Nshdw);
+	print2dArray(img->met[i]->weights, img->met[i]->Nvtc, img->met[i]->Nvtc);
 	*/
 	printf("\n");
     }

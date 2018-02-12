@@ -57,7 +57,7 @@ int buildAdj(struct image *img, int dist) {
 // r is the current row of the asymmetric (r x c)-matrix ab. c is the current column. 
 // in one loop cycle of r all other rows >nr get checked for adjacency
 // in one loop cycle of c all other columns >nc get checked for adjacency
-void sortAdj(struct image *img) {
+void generateGraphs(struct image *img) {
     int i, j;
     int r=0, c=0;
     int pr=0, pc=0;
@@ -108,18 +108,21 @@ void sortAdj(struct image *img) {
 
     } while ( (nr < rows) | (nc < cols) );
     img->num++;
+
+    for (i=0; i<(img->num); i++) {
+	img->met[i]->Nvtc = img->met[i]->Nlght + img->met[i]->Nshdw;
+	img->met[i]->vtc = cat1dArrays(img->met[i]->lght, img->met[i]->shdw, img->met[i]->Nlght, img->met[i]->Nshdw);
+    }
 }    
 
 void buildWeights(struct graph *met, int upper) {
     int i, j;
-    int *vtc; //Pixel (lghtPix and shdwPix belonging to one meteor)
 
-    vtc = cat1dArrays(met->lght, met->shdw, met->Nlght, met->Nshdw);
-    met->weights = alloc2dArray(met->weights, met->Ntot, met->Ntot);
+    met->weights = alloc2dArray(met->weights, met->Nvtc, met->Nvtc);
 
-    for (i=0; i<(met->Ntot); i++) {
+    for (i=0; i<(met->Nvtc); i++) {
 	for (j=0; j<(i+1); j++) {
-	    if ( (i != j) && ( (met->weights[i][j] = 100 - (100*squareDist(vtc[i], vtc[j])) / (upper*upper)) > 0 ) ) {
+	    if ( (i != j) && ( (met->weights[i][j] = 100 - (100*squareDist(met->vtc[i], met->vtc[j])) / (upper*upper)) > 0 ) ) {
 		met->weights[j][i] = met->weights[i][j];
 	    } else {
 		met->weights[i][j] = 0;
@@ -127,18 +130,19 @@ void buildWeights(struct graph *met, int upper) {
 	    }
 	}
     }
-    free(vtc);
 }
 
 void density(struct graph *met) {
     int i, j;
     int sum=0;
 
-    for (i=1; i<(met->Ntot); i++) {
+    int N = met->Nvtc;
+
+    for (i=1; i<N; i++) {
 	for (j=0; j<i; j++) {
 	    sum += met->weights[i][j];
 	}
     }
-    met->dens = (float) sum / (float) (met->Ntot*met->Ntot - met->Ntot);
+    met->dens = (float) sum / (float) (N*N - N) * 2;
 }
 
