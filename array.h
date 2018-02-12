@@ -127,6 +127,15 @@ void print2dArray(int **arr, int rows, int cols) {
     }
 }
 
+int *cpy1dArray(int *list, int *mist, int dim) {
+    int i;
+
+    for (i=0; i<dim; i++) {
+	mist[i] = list[i];
+    }
+    return mist;
+}
+
 int *cat1dArrays(int *list1, int *list2, int dim1, int dim2) {
     int i;
     int *list = calloc(dim1+dim2, sizeof(int));
@@ -147,6 +156,26 @@ int sum1dArray(int *list, int dim) {
    return sum;
 }
 
+int *getOrder(int *ord, int *list0, int dim) {
+    int i, j, k, l, tmp=0;
+    int *list = malloc(dim * sizeof(int));
+    list = cpy1dArray(list0, list, dim);
+
+    for (i=0; i<dim; i++) {
+	tmp = 0;
+	for (j=0; j<dim; j++) {
+	    if (list[j] > tmp) {
+		tmp = list[j];
+		k = j;
+	    }
+	}
+	ord[i] = k;
+	list[k] = 0;
+    }
+    
+    free(list);
+    return ord;
+}
 
 int **cpy2dArray(int **arr, int **brr, int rows, int cols) {
     int i, j;

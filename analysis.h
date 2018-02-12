@@ -36,11 +36,13 @@ int analyseGraphs(struct image *img) {
 	meanDegree(img->met[i]);
 	meanWeight(img->met[i]);
 
+	density(img->met[i]);
+
 	getVelocity(img->met[i]);
     }
 
     for (i=0; i<(img->num); i++) {
-	//backTraceMeteor(img->met[i]);
+	backTraceMeteor(img->met[i]);
     }
 
     return 0;

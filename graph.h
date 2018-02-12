@@ -159,6 +159,22 @@ void meanWeight(struct graph *met) {
     met->mWeight = sum / (N*N - N) * 2;
 }
 
+void density(struct graph *met) {
+    int i;
+    int *order = malloc(met->Nvtc * sizeof(int));
+    order = getOrder(order, met->deg, met->Nvtc);
+    met->dens = 0;
+
+    //print1dArray(order, met->Nvtc);
+
+    for (i=0; i<(met->Nvtc - 1); i++) {
+	met->dens += met->weights[order[i]][order[i+1]];
+    }
+    met->dens = (float) met->dens / (float) (met->Nvtc - 1);
+
+    free(order);
+}
+
 /*
 int degreeOfDisconnectivity(struct graph *met, int **weights) {
     int i, j, k;
