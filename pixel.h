@@ -4,7 +4,8 @@ int getX(int index) {
 }
 
 int getY(int index) {
-    return index / height;
+    //printf("h%i", height);
+    return index / width;
 }
 
 int *substractFrames(char *frameA, char *frameB) {
