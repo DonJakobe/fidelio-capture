@@ -160,22 +160,39 @@ void meanWeight(struct graph *met) {
 }
 
 void density(struct graph *met) {
-    int i;
+    int i=0, j;
     int *order = malloc(met->Nvtc * sizeof(int));
     order = getOrder(order, met->deg, met->Nvtc);
     met->dens = 0;
 
     //print1dArray(order, met->Nvtc);
 
-    for (i=0; i<(met->Nvtc - 1); i++) {
-	met->dens += met->weights[order[i]][order[i+1]];
+    while ( (i < (met->Nvtc)) && (met->deg[order[i]] > met->mDegree) ) {
+	j = 0;
+	while ( (j < (met->Nvtc)) && (met->deg[order[j]] > met->mDegree) ) {
+	    met->dens += met->weights[order[i]][order[j]];
+	    j++;
+	}
+	i++;
+
+	//printf("vtx %i: (%i|%i) | index %i | degree = %i | weight = %i \n", i, getX(met->vtc[order[i]]), getY(met->vtc[order[i]]), met->vtc[order[i]], met->deg[order[i]], met->weights[order[i]][order[i+1]]);
     }
-    met->dens = (float) met->dens / (float) (met->Nvtc - 1);
+
+    met->dens = (float) met->dens / (float) (i*i);
 
     free(order);
 }
 
-/*
+void getVertexPositions(struct graph *met) {
+    int i;
+    met->x = malloc(met->Nvtc * sizeof(int));
+    met->y = malloc(met->Nvtc * sizeof(int));
+    for (i=0; i<(met->Nvtc); i++) {
+	met->x[i] = getX(met->vtc[i]);
+	met->y[i] = getY(met->vtc[i]);
+    }
+}
+
 int degreeOfDisconnectivity(struct graph *met, int **weights) {
     int i, j, k;
     int con;
@@ -203,4 +220,3 @@ void connectivity(struct graph *met) {
 
     free2dArray(weights, met->Nvtc);
 }
-*/

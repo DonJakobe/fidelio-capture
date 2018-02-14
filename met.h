@@ -22,6 +22,8 @@ struct graph {
     int *vtc;
     int **weights;
     int *deg;
+    int *x;
+    int *y;
     float posX;
     float posY;
     float posVar;
@@ -76,6 +78,8 @@ void initGraph(struct graph *met) {
     free(met->lght);
     free(met->shdw);
     free(met->vtc);
+    free(met->x);
+    free(met->y);
     met->weights = free2dArray(met->weights, met->Nvtc);
     free(met->deg);
 }
@@ -238,6 +242,8 @@ void printImage(struct image *img) {
 	printf("SHADOW: ");
 	print1dArray(img->met[i]->shdw, img->met[i]->Nshdw);
 	printf("\n");
+	print1dArray(img->met[i]->x, img->met[i]->Nvtc);
+	print1dArray(img->met[i]->y, img->met[i]->Nvtc);
 	print2dArray(img->met[i]->weights, img->met[i]->Nvtc, img->met[i]->Nvtc);
 	*/
 	//if (img->met[i]->deg != NULL) print1dArray(img->met[i]->deg, img->met[i]->Nvtc);

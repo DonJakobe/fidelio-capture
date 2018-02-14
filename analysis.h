@@ -3,7 +3,7 @@
 
 static int limit = 50;
 static int cutoff = 10;
-static int wcutoff = 10;
+static int wcutoff = 4;
 static int duration = 5;
 
 #include "pixel.h"
@@ -28,6 +28,7 @@ int analyseGraphs(struct image *img) {
     int i;
     
     for (i=0; i<(img->num); i++) {
+	getVertexPositions(img->met[i]);
 	getPosition(img->met[i]);
 	assignContinuity(img, img->met[i], 20, 3);
 

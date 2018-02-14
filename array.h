@@ -157,7 +157,7 @@ int sum1dArray(int *list, int dim) {
 }
 
 int *getOrder(int *ord, int *list0, int dim) {
-    int i, j, k, l, tmp=0;
+    int i, j, k, tmp;
     int *list = malloc(dim * sizeof(int));
     list = cpy1dArray(list0, list, dim);
 
