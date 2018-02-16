@@ -12,26 +12,43 @@
 #include <stdlib.h>
 
 #define CLEAR(x) memset(&(x), 0, sizeof(x))
+#define height 480
+#define width 720
+#define length 345600
 
 const char *dev_name = "/dev/video0";
-const int height = 480;
-const int width = 720;
-const int length = 345600;
 const int buffer_size = 150;
 const int n_elapsed = 50;
-
-#include "met.h"
-#include "analysis.h"
 
 struct buffer {
 	void *start;
 	size_t length;
 };
 
+int *initList(int *list);
+int *addToList(int *list, int item, int size);
+int *rmFromList(int *list, int item, int cols);
+void switchEle(int *list, int item1, int item2);
+int **alloc2dArray(int **arr, int rows, int cols);
+int **free2dArray(int **arr, int rows);
+int **rmRow(int **arr, int row0, int *rows);
+int **rmCol(int **arr, int col0, int rows, int *cols);
+void switchRows(int **arr, int row1, int row2, int cols);
+void switchCols(int **arr, int col1, int col2, int rows);
+void print1dArray(int *list, int dim);
+void print2dArray(int **arr, int rows, int cols);
+int *cpy1dArray(int *list, int *mist, int dim);
+int **cpy2dArray(int **arr, int **brr, int rows, int cols);
+int *cat1dArrays(int *list1, int *list2, int dim1, int dim2);
+int sum1dArray(int *list, int dim);
+
+#include "met.h"
+#include "analysis.h"
+
 struct buffer *buffers;
 static unsigned int n_buffers;
 
-static struct image *frm = NULL;
+struct image *frm = NULL;
 
 static int fd = -1;
 
