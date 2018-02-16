@@ -1,18 +1,17 @@
 
 int getX(int index) {
-    return index % width;
+    return index % WIDTH;
 }
 
 int getY(int index) {
-    //printf("h%i", height);
-    return index / width;
+    return index / WIDTH;
 }
 
 int *substractFrames(unsigned char *frameA, unsigned char *frameB) {
     int i;
-    static int diff[length];
+    static int diff[LENGTH];
     
-    for (i=0; i<length; i++){
+    for (i=0; i<LENGTH; i++){
 	diff[i] = (int) (frameA[i]) - (int) (frameB[i]);
     }
     return diff;
@@ -21,7 +20,7 @@ int *substractFrames(unsigned char *frameA, unsigned char *frameB) {
 void identifyPix(struct image *img, int *diff, int lim) {
     int i;
 
-    for (i=0; i<length; i++) {
+    for (i=0; i<LENGTH; i++) {
 	if (diff[i] > lim) {
 	    img->lght = addToList(img->lght, i, img->Nlght);
 	    img->Nlght++;

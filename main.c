@@ -2,7 +2,6 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <linux/videodev2.h>
-//#include <stdint.h>
 #include <stdio.h>
 #include <string.h>
 #include <sys/ioctl.h>
@@ -12,9 +11,9 @@
 #include <stdlib.h>
 
 #define CLEAR(x) memset(&(x), 0, sizeof(x))
-#define height 480
-#define width 720
-#define length 345600
+#define HEIGHT 480
+#define WIDTH 720
+#define LENGTH 345600
 
 const char *dev_name = "/dev/video0";
 const int buffer_size = 150;
@@ -48,7 +47,7 @@ int sum1dArray(int *list, int dim);
 struct buffer *buffers;
 static unsigned int n_buffers;
 
-struct image *frm = NULL;
+static struct image *frm = NULL;
 
 static int fd = -1;
 
@@ -82,8 +81,8 @@ int init_device(int fd) {
 	CLEAR(fmt);
 	
 	fmt.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-	fmt.fmt.pix.width = width;
-	fmt.fmt.pix.height = height;
+	fmt.fmt.pix.width = WIDTH;
+	fmt.fmt.pix.height = HEIGHT;
 	fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV;
 	fmt.fmt.pix.field = V4L2_FIELD_INTERLACED;
 	fmt.fmt.pix.bytesperline = 0;
@@ -163,45 +162,15 @@ int start_grabbing(void) {
 	return 0;
 }
 
+int process_frame(unsigned char *yuyv) {
+	unsigned int i;
 
-int mainloop (void) {
-	int n = 0;
-	
-	while (1) {
-		while (1) {	
-			fd_set fds;
-			FD_ZERO(&fds);
-			FD_SET(fd, &fds);
-			struct timeval tv = {0};
-			tv.tv_sec = 2;
-			tv.tv_usec = 0;
-
-			int r = select(fd+1, &fds, NULL, NULL, &tv);
-		
-			if (-1 == r) {
-				perror("Waiting for Frame");
-				return 1;
-			}
-
-			if (read_frame())
-				break;
-		}
-
-		if (1 == check())
-			n++;
-		else
-			n = 0;
-
-		if (!(n < n_elapsed))
-			break;
-
-		//struct timeval time;
-		//gettimeofday(&time, NULL);
-		//printf("time: %i\n", time.tv_usec);
+	for (i = 0; i < LENGTH; i++) {
+		frm->data[i] = yuyv[2*i];
 	}
-	return 0;
-}
 
+	frm = frm->next;
+}	
 
 int read_frame () {
 
@@ -234,47 +203,50 @@ int read_frame () {
 	return 1;
 }
 
-
-int process_frame(unsigned char *yuyv) {
-	unsigned int i;
-
-	for (i = 0; i < length; i++) {
-		frm->data[i] = yuyv[2*i];
-	}
-
-	frm = frm->next;
-}	
-
-/*
-int write_video(void) {
-	int i;
-	int outfd = open("video.bwv", O_RDWR | O_APPEND | O_CREAT);
+int mainloop (void) {
+	int n = 0;
 	
-	for (i = 0; i < buffer_size; i++) {
-		write(outfd, frm->data, length);
-		printf("write: %i\n", frm->index);
-		frm = frm->next;
-	}
+	while (1) {
+		while (1) {	
+			fd_set fds;
+			FD_ZERO(&fds);
+			FD_SET(fd, &fds);
+			struct timeval tv = {0};
+			tv.tv_sec = 2;
+			tv.tv_usec = 0;
 
-	close(outfd);
+			int r = select(fd+1, &fds, NULL, NULL, &tv);
+		
+			if (-1 == r) {
+				perror("Waiting for Frame");
+				return 1;
+			}
+
+			if (read_frame())
+				break;
+		}
+
+		analyseFrame(frm);
+
+		//struct timeval time;
+		//gettimeofday(&time, NULL);
+		//printf("time: %i\n", time.tv_usec);
+	}
 	return 0;
 }
-*/
 
 int write_video(void) {
 	int i;
 	FILE *outfd = fopen("video.bwv", "a");
 
 	for (i = 0; i < buffer_size; i++) {
-		fwrite(frm->data, length, 1, outfd);
+		fwrite(frm->data, LENGTH, 1, outfd);
 		frm = frm->next;
 	}
 
 	fclose(outfd);
 	return 0;
 }
-
-
 
 int stop_grabbing(void) {
 	enum v4l2_buf_type type;
@@ -285,7 +257,6 @@ int stop_grabbing(void) {
 		return 1;
 	}
 }
-
 
 int uninit_device(void) {
 	unsigned int i;

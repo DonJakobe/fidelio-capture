@@ -58,7 +58,7 @@ struct image *buildBuffer(int size){
 		img->adj = NULL;
 		img->num = 0;
 		img->met = NULL;
-		img->data = malloc(length);
+		img->data = malloc(LENGTH);
 
 		if(i == size){
 			img->next = start;

@@ -2,14 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define height 480
-#define width 720
-#define length 345600
+#define HEIGHT 480
+#define WIDTH 720
+#define LENGTH 345600
 
 static char *input;
-//const int height = 480;
-//const int width = 720;
-//const int length = 345600;
 const int buffer_size = 150;
 const int n_elapsed = 50;
 
@@ -19,8 +16,6 @@ int *initList(int *list);
 int *addToList(int *list, int item, int size);
 int *rmFromList(int *list, int item, int cols);
 void switchEle(int *list, int item1, int item2);
-//int *cat1dArrays();
-//int sum1dArray();
 int **alloc2dArray(int **arr, int rows, int cols);
 int **free2dArray(int **arr, int rows);
 int **rmRow(int **arr, int row0, int *rows);
@@ -42,7 +37,7 @@ int load_file(void) {
 	
 	// write each frame of input to data array of cyclical buffer, one at a time ("buffer_size" times)
 	for (i = 0; i < buffer_size; i++) {
-		fread(frm->data, length, 1, fp); // write to current frame
+		fread(frm->data, LENGTH, 1, fp); // write to current frame
 		frm = frm->next; // jump to next frame in "frm"
 	}
 
@@ -57,7 +52,7 @@ int write_video(void) {
 
 	// append frames to file
 	for (i = 0; i < buffer_size; i++) {
-		fwrite(frm->data, length, 1, outfd); // append current frame
+		fwrite(frm->data, LENGTH, 1, outfd); // append current frame
 		frm = frm->next; // jump to next frame
 	}
 
@@ -69,7 +64,7 @@ int write_video(void) {
 int mainloop(void) {
 	int n = 0;
 	while (1) {
-		if (1 == analyseFrame())
+		if (1 == analyseFrame(frm))
 			n++;
 		else
 			n = 0;
@@ -82,6 +77,10 @@ int mainloop(void) {
 
 		frm = frm->next;
 
+		if(frm->index == 150) {
+			freeBuffer(frm);
+			exit(0);
+		}
 		//printf("elapsed: %i\n", n);
 	}
 	return 0;
