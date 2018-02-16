@@ -136,6 +136,17 @@ int *cpy1dArray(int *list, int *mist, int dim) {
     return mist;
 }
 
+int **cpy2dArray(int **arr, int **brr, int rows, int cols) {
+    int i, j;
+    
+    for (i=0; i<rows; i++) {
+	for (j=0; j<cols; j++) {
+	    brr[i][j] = arr[i][j];
+	}
+    }
+    return brr;
+}
+
 int *cat1dArrays(int *list1, int *list2, int dim1, int dim2) {
     int i;
     int *list = calloc(dim1+dim2, sizeof(int));
@@ -163,6 +174,7 @@ int *getOrder(int *ord, int *list0, int dim) {
 
     for (i=0; i<dim; i++) {
 	tmp = 0;
+	k = i;
 	for (j=0; j<dim; j++) {
 	    if (list[j] > tmp) {
 		tmp = list[j];
@@ -175,15 +187,4 @@ int *getOrder(int *ord, int *list0, int dim) {
     
     free(list);
     return ord;
-}
-
-int **cpy2dArray(int **arr, int **brr, int rows, int cols) {
-    int i, j;
-    
-    for (i=0; i<rows; i++) {
-	for (j=0; j<cols; j++) {
-	    brr[i][j] = arr[i][j];
-	}
-    }
-    return brr;
 }
