@@ -8,7 +8,7 @@ int getY(int index) {
     return index / width;
 }
 
-int *substractFrames(char *frameA, char *frameB) {
+int *substractFrames(unsigned char *frameA, unsigned char *frameB) {
     int i;
     static int diff[length];
     
@@ -38,17 +38,17 @@ int squareDist(int i1, int i2) {
 }
 
 void getPosition(struct graph *met) {
-    int i, j;
+    int i;
     float meanX=0, meanY=0;
     float meanX2=0, meanY2=0;
 
     int N = met->Nvtc;
     
-    for (j=0; j<N; j++) {
-	meanX += (float) getX(met->vtc[j]);
-	meanX2 += (float) getX(met->vtc[j]) * getX(met->vtc[j]);
-	meanY += (float) getY(met->vtc[j]);
-	meanY2 += (float) getY(met->vtc[j]) * getY(met->vtc[j]);
+    for (i=0; i<N; i++) {
+	meanX += (float) getX(met->vtc[i]);
+	meanX2 += (float) getX(met->vtc[i]) * getX(met->vtc[i]);
+	meanY += (float) getY(met->vtc[i]);
+	meanY2 += (float) getY(met->vtc[i]) * getY(met->vtc[i]);
     }
     met->posX = meanX/N;
     met->posY = meanY/N;

@@ -38,7 +38,7 @@ int load_file(void) {
 	FILE *fp;
 	int i;
 
-	fp = fopen(input, "r");
+	fp = fopen(input, "rb");
 	
 	// write each frame of input to data array of cyclical buffer, one at a time ("buffer_size" times)
 	for (i = 0; i < buffer_size; i++) {
@@ -47,6 +47,7 @@ int load_file(void) {
 	}
 
 	fclose(fp); // close input
+	return 0;
 }
 
 // write video to file 
@@ -83,6 +84,7 @@ int mainloop(void) {
 
 		//printf("elapsed: %i\n", n);
 	}
+	return 0;
 }
 
 

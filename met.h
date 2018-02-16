@@ -1,7 +1,7 @@
 
 struct image {
     int index;
-    char *data;
+    unsigned char *data;
     int Nlght;
     int Nshdw;
     int *lght;
@@ -145,7 +145,7 @@ void initFrame(struct image *img) {
 }
 
 void assignContinuity(struct image *img, struct graph *met, int dist, int depth) {
-    int deg, i, j;
+    int deg, j;
 
     met->continuity = 0;
     
@@ -235,13 +235,13 @@ void printImage(struct image *img) {
     */
 
     for (i=0; i<(img->num); i++) {
-	printf("meteor =%i= || postion: X = %.2f, Y = %.2f (Var=%.2f) | velocity: vx = %.3f, vy = %.3f (R=%.4f) | mean weight = %i | mean degree = %i | density = %f | continuity = %i\n", i, img->met[i]->posX, img->met[i]->posY, img->met[i]->posVar, img->met[i]->vx, img->met[i]->vy, img->met[i]->R, img->met[i]->mWeight, img->met[i]->mDegree, img->met[i]->dens, img->met[i]->continuity);
-	/*
+	//printf("meteor =%i= || postion: X = %.2f, Y = %.2f (Var=%.2f) | velocity: vx = %.3f, vy = %.3f (R=%.4f) | mean weight = %i | mean degree = %i | density = %f | continuity = %i\n", i, img->met[i]->posX, img->met[i]->posY, img->met[i]->posVar, img->met[i]->vx, img->met[i]->vy, img->met[i]->R, img->met[i]->mWeight, img->met[i]->mDegree, img->met[i]->dens, img->met[i]->continuity);
 	printf("LIGHT: ");
 	print1dArray(img->met[i]->lght, img->met[i]->Nlght);
 	printf("SHADOW: ");
 	print1dArray(img->met[i]->shdw, img->met[i]->Nshdw);
 	printf("\n");
+	/*
 	print1dArray(img->met[i]->x, img->met[i]->Nvtc);
 	print1dArray(img->met[i]->y, img->met[i]->Nvtc);
 	print2dArray(img->met[i]->weights, img->met[i]->Nvtc, img->met[i]->Nvtc);

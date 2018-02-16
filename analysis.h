@@ -4,7 +4,7 @@
 static int limit = 50;
 static int cutoff = 10;
 static int wcutoff = 4;
-static int duration = 5;
+//static int duration = 5;
 
 #include "pixel.h"
 #include "array.h"
@@ -17,7 +17,13 @@ void cluster(struct image *img) {
     initFrame(img);
 
     sub = substractFrames(img->data, img->prev->data);
+    printf("SUB %i\n", sub[0]);
+    printf("CAST %i | %i , %d | %d\n", (int)img->data[0], (int)img->prev->data[0], img->data[0], img->prev->data[0]);
+
     identifyPix(img, sub, limit); // build lists of bright (>0) and dark (<0) pixels from sub
+
+    print1dArray(img->lght, img->Nlght);
+    print1dArray(img->shdw, img->Nshdw);
 
     if ( buildAdj(img, cutoff) == 1) return; // build adjacency matrix between bright (>0) and dark (<0) pixels
     
@@ -43,7 +49,7 @@ int analyseGraphs(struct image *img) {
     }
 
     for (i=0; i<(img->num); i++) {
-	backTraceMeteor(img->met[i]);
+	//backTraceMeteor(img->met[i]);
     }
 
     return 0;
@@ -55,7 +61,7 @@ int analyseFrame(void) {
    
     cluster(frm);
     analyseGraphs(frm);
-    printImage(frm);
+    //printImage(frm);
     
     if(frm->index == 150) {
 	freeBuffer(frm);

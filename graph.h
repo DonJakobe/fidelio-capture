@@ -52,6 +52,7 @@ int buildAdj(struct image *img, int dist) {
     if (img->lght == NULL) {
 	return 1;
     }
+    return 0;
 }
 
 // r is the current row of the asymmetric (r x c)-matrix ab. c is the current column. 
@@ -207,15 +208,16 @@ int degreeOfDisconnectivity(struct graph *met, int **weights) {
 		    break;
 		}
 	    }
-	    if (con = 1) break;
+	    if (con == 1) break;
 	}
-	if (con = 0) dcon++;
+	if (con == 0) dcon++;
     }
     return dcon;
 }
 
 void connectivity(struct graph *met) {
-    int **weights = alloc2dArray(weights, met->Nvtc, met->Nvtc);
+    int **weights = NULL;
+    weights = alloc2dArray(weights, met->Nvtc, met->Nvtc);
     weights = cpy2dArray(met->weights, weights, met->Nvtc, met->Nvtc);
 
     free2dArray(weights, met->Nvtc);
