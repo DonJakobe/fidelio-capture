@@ -9,6 +9,7 @@
 #include <unistd.h>
 
 #include <stdlib.h>
+#include <time.h>
 
 #define CLEAR(x) memset(&(x), 0, sizeof(x))
 #define HEIGHT 480
@@ -43,6 +44,7 @@ int sum1dArray(int *list, int dim);
 
 #include "met.h"
 #include "analysis.h"
+#include "search.h"
 
 struct buffer *buffers;
 static unsigned int n_buffers;
@@ -172,7 +174,7 @@ int process_frame(unsigned char *yuyv) {
 	frm = frm->next;
 }	
 
-int read_frame () {
+int read_frame(void) {
 
 	struct v4l2_buffer buf;
 
@@ -203,10 +205,27 @@ int read_frame () {
 	return 1;
 }
 
-int mainloop (void) {
-	int n = 0;
+int write_video(void) {
+	int i;
+	FILE *outfd = fopen("positive.bwv", "a");
+
+	for (i = 0; i < buffer_size; i++) {
+		fwrite(frm->data, LENGTH, 1, outfd);
+		frm = frm->next;
+	}
+
+	fclose(outfd);
+	return 0;
+}
+
+int mainloop (time_t exectime) {
+	int n=0;
+	int found=0;
+
+	time_t start = time(NULL);
+	time_t end = start + exectime;
 	
-	while (1) {
+	while (time(NULL) < end) {
 		while (1) {	
 			fd_set fds;
 			FD_ZERO(&fds);
@@ -228,23 +247,18 @@ int mainloop (void) {
 
 		analyseFrame(frm);
 
-		//struct timeval time;
-		//gettimeofday(&time, NULL);
-		//printf("time: %i\n", time.tv_usec);
+		if (search(frm) == 1)
+			found = 1;
+
+		if (found == 1)
+			n++;
+
+		if (n > n_elapsed) {
+			n = 0;
+			found = 0;
+			write_video();
+		}
 	}
-	return 0;
-}
-
-int write_video(void) {
-	int i;
-	FILE *outfd = fopen("video.bwv", "a");
-
-	for (i = 0; i < buffer_size; i++) {
-		fwrite(frm->data, LENGTH, 1, outfd);
-		frm = frm->next;
-	}
-
-	fclose(outfd);
 	return 0;
 }
 
@@ -272,7 +286,13 @@ int uninit_device(void) {
 }
 
 
-int main() {
+int main(int argc, char* argv[]) {
+	int time_int;
+	time_t time;
+
+	sscanf(argv[1], "%i", &time_int);
+	time = time_int;
+
 	frm = buildBuffer(buffer_size);
 
 	fd = open(dev_name, O_RDWR | O_NONBLOCK, 0);
@@ -291,15 +311,15 @@ int main() {
 	if (start_grabbing())
 		return 1;
 
-	mainloop();
+	mainloop(time);
 
 	stop_grabbing();
 
 	uninit_device();
 
-	write_video();
-
 	close(fd);
+
+	freeBuffer(frm);
 	
 	return 0;
 }
